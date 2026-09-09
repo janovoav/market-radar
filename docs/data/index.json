@@ -1,5 +1,11 @@
 [
  {
+  "file": "20260909-1904.json",
+  "at": "2026-09-09T19:04",
+  "headline": "No se pudo interpretar la respuesta del modelo",
+  "regime": "mixto"
+ },
+ {
   "file": "20260908-2018.json",
   "at": "2026-09-08T20:18",
   "headline": "El mercado descuenta menos recortes y el ajuste llega por la tasa real, no por la inflación esperada",
