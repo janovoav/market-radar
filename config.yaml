@@ -50,79 +50,79 @@ delivery:
 universe:
 
   indices:
-    - {t: "^spx",  n: "S&P 500",        r: "EEUU"}
-    - {t: "^ndq",  n: "Nasdaq 100",     r: "EEUU"}
-    - {t: "^dji",  n: "Dow Jones",      r: "EEUU"}
-    - {t: "^rut",  n: "Russell 2000",   r: "EEUU small cap"}
-    - {t: "^vix",  n: "VIX",            r: "Volatilidad"}
-    - {t: "^dax",  n: "DAX",            r: "Alemania"}
-    - {t: "^ukx",  n: "FTSE 100",       r: "Reino Unido"}
-    - {t: "^nkx",  n: "Nikkei 225",     r: "Japón"}
-    - {t: "^hsi",  n: "Hang Seng",      r: "Hong Kong"}
-    - {t: "^shc",  n: "Shanghai Comp",  r: "China"}
+    - {t: "^GSPC", stooq: "^spx",  n: "S&P 500",        r: "EEUU"}
+    - {t: "^NDX", stooq: "^ndq",  n: "Nasdaq 100",     r: "EEUU"}
+    - {t: "^DJI", stooq: "^dji",  n: "Dow Jones",      r: "EEUU"}
+    - {t: "^RUT", stooq: "^rut",  n: "Russell 2000",   r: "EEUU small cap"}
+    - {t: "^VIX", stooq: "^vix",  n: "VIX",            r: "Volatilidad"}
+    - {t: "^GDAXI", stooq: "^dax",  n: "DAX",            r: "Alemania"}
+    - {t: "^FTSE", stooq: "^ukx",  n: "FTSE 100",       r: "Reino Unido"}
+    - {t: "^N225", stooq: "^nkx",  n: "Nikkei 225",     r: "Japón"}
+    - {t: "^HSI", stooq: "^hsi",  n: "Hang Seng",      r: "Hong Kong"}
+    - {t: "000001.SS", stooq: "^shc",  n: "Shanghai Comp",  r: "China"}
 
   etfs_regionales:
-    - {t: "eem.us", n: "Emergentes (EEM)",  r: "EM global"}
-    - {t: "ewz.us", n: "Brasil (EWZ)",      r: "Brasil"}
-    - {t: "gxg.us", n: "Colombia (GXG)",    r: "Colombia"}
-    - {t: "eww.us", n: "México (EWW)",      r: "México"}
-    - {t: "ilf.us", n: "LatAm (ILF)",       r: "LatAm"}
-    - {t: "fxi.us", n: "China (FXI)",       r: "China"}
-    - {t: "vgk.us", n: "Europa (VGK)",      r: "Europa"}
+    - {t: "EEM", stooq: "eem.us", n: "Emergentes (EEM)",  r: "EM global"}
+    - {t: "EWZ", stooq: "ewz.us", n: "Brasil (EWZ)",      r: "Brasil"}
+    - {t: "GXG", stooq: "gxg.us", n: "Colombia (GXG)",    r: "Colombia"}
+    - {t: "EWW", stooq: "eww.us", n: "México (EWW)",      r: "México"}
+    - {t: "ILF", stooq: "ilf.us", n: "LatAm (ILF)",       r: "LatAm"}
+    - {t: "FXI", stooq: "fxi.us", n: "China (FXI)",       r: "China"}
+    - {t: "VGK", stooq: "vgk.us", n: "Europa (VGK)",      r: "Europa"}
 
   etfs_sectoriales:
-    - {t: "xlk.us", n: "Tecnología",   r: "Sector"}
-    - {t: "xlf.us", n: "Financiero",   r: "Sector"}
-    - {t: "xle.us", n: "Energía",      r: "Sector"}
-    - {t: "xlv.us", n: "Salud",        r: "Sector"}
-    - {t: "xli.us", n: "Industrial",   r: "Sector"}
-    - {t: "xlu.us", n: "Utilities",    r: "Sector"}
-    - {t: "xlp.us", n: "Consumo básico", r: "Sector"}
-    - {t: "xly.us", n: "Consumo disc.",  r: "Sector"}
-    - {t: "smh.us", n: "Semiconductores", r: "Sector"}
+    - {t: "XLK", stooq: "xlk.us", n: "Tecnología",   r: "Sector"}
+    - {t: "XLF", stooq: "xlf.us", n: "Financiero",   r: "Sector"}
+    - {t: "XLE", stooq: "xle.us", n: "Energía",      r: "Sector"}
+    - {t: "XLV", stooq: "xlv.us", n: "Salud",        r: "Sector"}
+    - {t: "XLI", stooq: "xli.us", n: "Industrial",   r: "Sector"}
+    - {t: "XLU", stooq: "xlu.us", n: "Utilities",    r: "Sector"}
+    - {t: "XLP", stooq: "xlp.us", n: "Consumo básico", r: "Sector"}
+    - {t: "XLY", stooq: "xly.us", n: "Consumo disc.",  r: "Sector"}
+    - {t: "SMH", stooq: "smh.us", n: "Semiconductores", r: "Sector"}
 
   renta_fija:
-    - {t: "tlt.us", n: "UST 20y+ (TLT)",   r: "Duración larga"}
-    - {t: "ief.us", n: "UST 7-10y (IEF)",  r: "Duración media"}
-    - {t: "shy.us", n: "UST 1-3y (SHY)",   r: "Duración corta"}
-    - {t: "tip.us", n: "TIPS (TIP)",       r: "Indexado inflación"}
-    - {t: "lqd.us", n: "Corp IG (LQD)",    r: "Grado inversión"}
-    - {t: "hyg.us", n: "Corp HY (HYG)",    r: "Alto rendimiento"}
-    - {t: "emb.us", n: "Deuda EM (EMB)",   r: "Emergentes USD"}
+    - {t: "TLT", stooq: "tlt.us", n: "UST 20y+ (TLT)",   r: "Duración larga"}
+    - {t: "IEF", stooq: "ief.us", n: "UST 7-10y (IEF)",  r: "Duración media"}
+    - {t: "SHY", stooq: "shy.us", n: "UST 1-3y (SHY)",   r: "Duración corta"}
+    - {t: "TIP", stooq: "tip.us", n: "TIPS (TIP)",       r: "Indexado inflación"}
+    - {t: "LQD", stooq: "lqd.us", n: "Corp IG (LQD)",    r: "Grado inversión"}
+    - {t: "HYG", stooq: "hyg.us", n: "Corp HY (HYG)",    r: "Alto rendimiento"}
+    - {t: "EMB", stooq: "emb.us", n: "Deuda EM (EMB)",   r: "Emergentes USD"}
 
   commodities:
-    - {t: "cl.f", n: "Petróleo WTI",  r: "Energía"}
-    - {t: "cb.f", n: "Petróleo Brent", r: "Energía"}
-    - {t: "ng.f", n: "Gas natural",   r: "Energía"}
-    - {t: "gc.f", n: "Oro",           r: "Metal precioso"}
-    - {t: "si.f", n: "Plata",         r: "Metal precioso"}
-    - {t: "hg.f", n: "Cobre",         r: "Metal industrial"}
-    - {t: "zc.f", n: "Maíz",          r: "Agrícola"}
-    - {t: "zs.f", n: "Soya",          r: "Agrícola"}
-    - {t: "kc.f", n: "Café",          r: "Agrícola / Colombia"}
+    - {t: "CL=F", stooq: "cl.f", n: "Petróleo WTI",  r: "Energía"}
+    - {t: "BZ=F", stooq: "cb.f", n: "Petróleo Brent", r: "Energía"}
+    - {t: "NG=F", stooq: "ng.f", n: "Gas natural",   r: "Energía"}
+    - {t: "GC=F", stooq: "gc.f", n: "Oro",           r: "Metal precioso"}
+    - {t: "SI=F", stooq: "si.f", n: "Plata",         r: "Metal precioso"}
+    - {t: "HG=F", stooq: "hg.f", n: "Cobre",         r: "Metal industrial"}
+    - {t: "ZC=F", stooq: "zc.f", n: "Maíz",          r: "Agrícola"}
+    - {t: "ZS=F", stooq: "zs.f", n: "Soya",          r: "Agrícola"}
+    - {t: "KC=F", stooq: "kc.f", n: "Café",          r: "Agrícola / Colombia"}
 
   fx:
-    - {t: "usdcop", n: "USD/COP",  r: "Colombia"}
-    - {t: "dx.f",   n: "DXY",      r: "Dólar índice"}
-    - {t: "eurusd", n: "EUR/USD",  r: "G10"}
-    - {t: "usdjpy", n: "USD/JPY",  r: "G10 / carry"}
-    - {t: "gbpusd", n: "GBP/USD",  r: "G10"}
-    - {t: "usdbrl", n: "USD/BRL",  r: "LatAm"}
-    - {t: "usdmxn", n: "USD/MXN",  r: "LatAm"}
-    - {t: "usdclp", n: "USD/CLP",  r: "LatAm"}
+    - {t: "COP=X", stooq: "usdcop", n: "USD/COP",  r: "Colombia"}
+    - {t: "DX-Y.NYB", stooq: "dx.f",   n: "DXY",      r: "Dólar índice"}
+    - {t: "EURUSD=X", stooq: "eurusd", n: "EUR/USD",  r: "G10"}
+    - {t: "JPY=X", stooq: "usdjpy", n: "USD/JPY",  r: "G10 / carry"}
+    - {t: "GBPUSD=X", stooq: "gbpusd", n: "GBP/USD",  r: "G10"}
+    - {t: "BRL=X", stooq: "usdbrl", n: "USD/BRL",  r: "LatAm"}
+    - {t: "MXN=X", stooq: "usdmxn", n: "USD/MXN",  r: "LatAm"}
+    - {t: "CLP=X", stooq: "usdclp", n: "USD/CLP",  r: "LatAm"}
 
   acciones_vigiladas:      # las que mueven índices o te interesan puntualmente
-    - {t: "nvda.us", n: "NVIDIA",     r: "Mega cap"}
-    - {t: "aapl.us", n: "Apple",      r: "Mega cap"}
-    - {t: "msft.us", n: "Microsoft",  r: "Mega cap"}
-    - {t: "googl.us", n: "Alphabet",  r: "Mega cap"}
-    - {t: "amzn.us", n: "Amazon",     r: "Mega cap"}
-    - {t: "meta.us", n: "Meta",       r: "Mega cap"}
-    - {t: "tsla.us", n: "Tesla",      r: "Mega cap"}
-    - {t: "nu.us",   n: "NU Holdings", r: "LatAm fintech"}
-    - {t: "ec.us",   n: "Ecopetrol",  r: "Colombia"}
-    - {t: "aval.us", n: "Grupo Aval", r: "Colombia"}
-    - {t: "cib.us",  n: "Bancolombia", r: "Colombia"}
+    - {t: "NVDA", stooq: "nvda.us", n: "NVIDIA",     r: "Mega cap"}
+    - {t: "AAPL", stooq: "aapl.us", n: "Apple",      r: "Mega cap"}
+    - {t: "MSFT", stooq: "msft.us", n: "Microsoft",  r: "Mega cap"}
+    - {t: "GOOGL", stooq: "googl.us", n: "Alphabet",  r: "Mega cap"}
+    - {t: "AMZN", stooq: "amzn.us", n: "Amazon",     r: "Mega cap"}
+    - {t: "META", stooq: "meta.us", n: "Meta",       r: "Mega cap"}
+    - {t: "TSLA", stooq: "tsla.us", n: "Tesla",      r: "Mega cap"}
+    - {t: "NU", stooq: "nu.us",   n: "NU Holdings", r: "LatAm fintech"}
+    - {t: "EC", stooq: "ec.us",   n: "Ecopetrol",  r: "Colombia"}
+    - {t: "AVAL", stooq: "aval.us", n: "Grupo Aval", r: "Colombia"}
+    - {t: "CIB", stooq: "cib.us",  n: "Bancolombia", r: "Colombia"}
 
   crypto:                  # vía CoinGecko
     - {id: "bitcoin",   n: "BTC"}
@@ -303,5 +303,4 @@ model:
   daily:   "claude-sonnet-5"    # equilibrio calidad/costo para el diario
   weekly:  "claude-opus-5"      # síntesis semanal, vale la pena escalar
   max_tokens: 8000
-  temperature: 0.3              # bajo: queremos consistencia, no creatividad
   # Alternativa más barata para el diario: "claude-haiku-4-5-20251001"
