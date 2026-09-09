@@ -9,9 +9,14 @@ import functools
 import time
 
 TIMEOUT = 25
+# Muchos sitios (Fed, FMI, Economist) devuelven 403 a User-Agents que no
+# parecen un navegador. La SEC, además, exige un correo de contacto.
 HEADERS = {
-    "User-Agent": "market-radar/2.0 (uso personal de investigación)",
-    "Accept": "*/*",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/122.0 Safari/537.36",
+    "Accept": "application/rss+xml,application/xml,text/xml,application/atom+xml,*/*",
+    "Accept-Language": "es-CO,es;q=0.9,en;q=0.8",
+    "Cache-Control": "no-cache",
 }
 
 ERRORS: list[dict] = []
