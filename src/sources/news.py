@@ -15,7 +15,11 @@ from src.sources.common import HEADERS, TIMEOUT, log_error, strip_html
 def _fetch_one(feed: dict, cutoff: datetime) -> list[dict]:
     out: list[dict] = []
     try:
-        r = requests.get(feed["u"], headers=HEADERS, timeout=TIMEOUT)
+        # La SEC exige un User-Agent que identifique al usuario con un correo.
+        headers = dict(HEADERS)
+        if "sec.gov" in feed["u"]:
+            headers["User-Agent"] = "Market Radar juanchonovoavillarreal@gmail.com"
+        r = requests.get(feed["u"], headers=headers, timeout=TIMEOUT)
         r.raise_for_status()
         parsed = feedparser.parse(r.content)
         for entry in parsed.entries[:70]:
