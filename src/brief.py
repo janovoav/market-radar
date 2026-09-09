@@ -203,7 +203,6 @@ def generate(payload: str, cfg: dict, model: str, api_key: str | None = None) ->
     body = {
         "model": model,
         "max_tokens": cfg["model"]["max_tokens"],
-        "temperature": cfg["model"].get("temperature", 0.3),
         "system": SYSTEM.format(mandate=cfg["owner"]["mandate"]),
         "messages": [{"role": "user", "content": payload}],
     }
