@@ -171,9 +171,9 @@ feeds:
   - {n: "Fed · comunicados",  u: "https://www.federalreserve.gov/feeds/press_all.xml", tier: 1, topic: "macro"}
   - {n: "Fed · discursos",    u: "https://www.federalreserve.gov/feeds/speeches.xml",  tier: 1, topic: "macro"}
   - {n: "BCE · prensa",       u: "https://www.ecb.europa.eu/rss/press.html",           tier: 1, topic: "macro"}
-  - {n: "BIS",                u: "https://www.bis.org/list/press_rss.xml",             tier: 1, topic: "macro"}
+  - {n: "BIS",                u: "https://www.bis.org/doclist/all_rss.xml",            tier: 1, topic: "macro"}
   - {n: "FMI · blog",         u: "https://www.imf.org/en/Blogs/rss",                   tier: 1, topic: "macro"}
-  - {n: "Banco Mundial",      u: "https://blogs.worldbank.org/en/rss.xml",             tier: 2, topic: "macro"}
+  - {n: "Banrep · comunicados", u: "https://news.google.com/rss/search?q=when:3d+site:banrep.gov.co&hl=es-419&gl=CO&ceid=CO:es-419", tier: 1, topic: "colombia"}
 
   # — Reguladores y mercado primario
   - {n: "SEC · registros S-1", u: "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=S-1&company=&dateb=&owner=include&count=40&output=atom", tier: 1, topic: "ipos"}
@@ -181,19 +181,19 @@ feeds:
 
   # — Prensa financiera
   - {n: "WSJ · Mercados",     u: "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain", tier: 1, topic: "markets"}
-  - {n: "WSJ · Economía",     u: "https://feeds.content.dowjones.io/public/rss/RSSEconomy",     tier: 1, topic: "macro"}
+  - {n: "WSJ · Economía",     u: "https://news.google.com/rss/search?q=when:1d+site:wsj.com+(economy+OR+inflation+OR+fed)&hl=en-US&gl=US&ceid=US:en", tier: 1, topic: "macro"}
   - {n: "MarketWatch",        u: "https://feeds.content.dowjones.io/public/rss/mw_topstories",  tier: 2, topic: "markets"}
-  - {n: "Financial Times",    u: "https://www.ft.com/rss/home",                                 tier: 1, topic: "markets"}
-  - {n: "The Economist · Finanzas", u: "https://www.economist.com/finance-and-economics/rss.xml", tier: 1, topic: "macro"}
+  - {n: "Financial Times",    u: "https://news.google.com/rss/search?q=when:1d+site:ft.com+(markets+OR+economy+OR+rates)&hl=en-US&gl=US&ceid=US:en", tier: 1, topic: "markets"}
+  - {n: "The Economist",      u: "https://news.google.com/rss/search?q=when:3d+site:economist.com+(finance+OR+economics+OR+markets)&hl=en-US&gl=US&ceid=US:en", tier: 1, topic: "macro"}
   - {n: "CNBC · Economía",    u: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258", tier: 2, topic: "macro"}
   - {n: "CNBC · Mercados",    u: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20409666", tier: 2, topic: "markets"}
   - {n: "Yahoo Finance",      u: "https://finance.yahoo.com/news/rssindex",                     tier: 3, topic: "markets"}
 
   # — Colombia y región
-  - {n: "Valora Analitik",    u: "https://www.valoraanalitik.com/feed/",        tier: 2, topic: "colombia"}
-  - {n: "Portafolio",         u: "https://www.portafolio.co/rss/economia",      tier: 2, topic: "colombia"}
+  - {n: "Valora Analitik",    u: "https://news.google.com/rss/search?q=when:2d+site:valoraanalitik.com&hl=es-419&gl=CO&ceid=CO:es-419", tier: 2, topic: "colombia"}
+  - {n: "Portafolio",         u: "https://news.google.com/rss/search?q=when:2d+site:portafolio.co&hl=es-419&gl=CO&ceid=CO:es-419", tier: 2, topic: "colombia"}
   - {n: "La República",       u: "https://www.larepublica.co/rss/economia",     tier: 2, topic: "colombia"}
-  - {n: "El Espectador · Economía", u: "https://www.elespectador.com/arc/outboundfeeds/rss/category/economia/", tier: 3, topic: "colombia"}
+  - {n: "El Espectador · Economía", u: "https://news.google.com/rss/search?q=when:2d+site:elespectador.com+econom%C3%ADa&hl=es-419&gl=CO&ceid=CO:es-419", tier: 3, topic: "colombia"}
 
   # — Google News como proxy legal de wires sin RSS propio
   - {n: "Reuters (GNews)",    u: "https://news.google.com/rss/search?q=when:1d+site:reuters.com+(markets+OR+economy+OR+rates)&hl=en-US&gl=US&ceid=US:en", tier: 1, topic: "markets"}
@@ -296,11 +296,4 @@ scoring:
     geopolitica: 4
     commodities: 4
 
-# ═══════════════════════════════════════════════════════════════════════
-#  MODELO DE LENGUAJE
-# ═══════════════════════════════════════════════════════════════════════
-model:
-  daily:   "claude-sonnet-5"    # equilibrio calidad/costo para el diario
-  weekly:  "claude-opus-5"      # síntesis semanal, vale la pena escalar
-  max_tokens: 8000
-  # Alternativa más barata para el diario: "claude-haiku-4-5-20251001"
+# ═════════════════════════════════════════════
