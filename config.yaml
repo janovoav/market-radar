@@ -296,4 +296,11 @@ scoring:
     geopolitica: 4
     commodities: 4
 
-# ═════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════════════
+#  MODELO DE LENGUAJE
+# ═══════════════════════════════════════════════════════════════════════
+model:
+  daily:   "claude-sonnet-5"    # equilibrio calidad/costo para el diario
+  weekly:  "claude-opus-5"      # síntesis semanal, vale la pena escalar
+  max_tokens: 20000
+  # Alternativa más barata para el diario: "claude-haiku-4-5-20251001"
