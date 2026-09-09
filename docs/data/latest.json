@@ -1,27 +1,182 @@
 {
- "generated_at": "2026-09-09T19:04",
+ "generated_at": "2026-09-09T19:20",
  "brief": {
-  "headline": "No se pudo interpretar la respuesta del modelo",
-  "subhead": "El texto crudo quedó guardado para revisión.",
-  "sections": [],
-  "_raw": "{\n  \"headline\": \"Escalada en Irán empuja el petróleo sobre $100 y reintroduce riesgo de inflación justo antes del FOMC del 9-10 de septiembre.\",\n  \"subhead\": \"WTI +3.63% y Brent +3.58% en el día [1][2][24][50]; el breakeven a 10 años sube 2pb y la tasa real 1pb, mientras el oro avanza +1.32% como refugio [3][51]. El crédito HY no confirma el estrés: el spread comprime -1pb.\",\n  \"regime_read\": \"La etiqueta 'mixto' (score -1.4) es correcta y la razón está en la contradicción entre clases de activo: equities y VIX muestran risk-off (S&P -0.40%, VIX +2.9%), pero el crédito HY comprime y el dólar apenas se mueve (-0.02%). Esto no es una liquidación generalizada de riesgo; es un shock de commodity/geopolítica que golpea duration y sectores sensibles a tasa (small caps, industriales) sin contagiar aún al mercado de crédito.\",\n  \"sections\": [\n    {\n      \"title\": \"Macro, tasas y bancos centrales\",\n      \"items\": [\n        {\n          \"fact\": \"Petróleo WTI +3.63% y Brent +3.58% en el día tras escalada del conflicto con Irán, cruzando los $100/barril [1][2][24][50].\",\n          \"why\": \"Un shock de oferta petrolera eleva la inflación importada justo cuando la Fed (FOMC 9-10 sept.) y el BCE evalúan su siguiente paso; el mercado revisa al alza la inflación esperada, no solo la realizada.\",\n          \"implication\": \"El breakeven 10y sube +2pb y la tasa real +1pb en el día: el mercado está pricing algo de inflación adicional, no solo tasas más altas. Vigilar si el 2y (+3pb hoy) sigue subiendo más que el 10y (+1pb), señal de repricing hawkish en el tramo corto.\",\n          \"priced_in\": \"La escalada en Irán ya era noticia confirmada en 9 fuentes [1]; lo nuevo es la persistencia sobre $100, no el evento inicial.\",\n          \"sources\": [1, 2, 24, 50]\n        },\n        {\n          \"fact\": \"El BCE se perfila a subir tasas hacia 2.50% después de que el shock petrolero por Irán empujara la inflación de la eurozona a 3.3% [45].\",\n          \"why\": \"Mismo mecanismo de oferta energética, pero en Europa se traduce directamente en expectativa de hike del BCE, elevando la tasa de descuento para activos europeos.\",\n          \"implication\": \"DAX -1.66% (z=-2.0) y FTSE -1.31% (z=-2.4) son los movimientos anómalos del día en índices; consistente con una revisión hawkish más marcada en Europa que en EE.UU.\",\n          \"priced_in\": \"\",\n          \"sources\": [45]\n        },\n        {\n          \"fact\": \"El Tesoro de EE.UU. amplió su recompra de bonos 10-20 años a $6.000 millones, el triple de lo habitual [14][20].\",\n          \"why\": \"La operación busca contener el rendimiento del tramo largo absorbiendo oferta, pero el mercado la calificó de 'underwhelmed' [20]: TLT cae -0.55% en el día y el 10y sube 1pb pese al esfuerzo.\",\n          \"implication\": \"La gestión de oferta de deuda no está compensando la presión de fondo sobre yields; la duration larga sigue vulnerable si el shock inflacionario de petróleo persiste.\",\n          \"priced_in\": \"El anuncio inicial de la recompra ya era conocido; la sorpresa era el tamaño, y aun así no hubo reacción en yields.\",\n          \"sources\": [14, 20]\n        },\n        {\n          \"fact\": \"Encuesta de Reuters muestra a la Fed manteniendo tasas el resto de 2026, pero con un número creciente de analistas que ahora ve al menos un hike [41].\",\n          \"why\": \"Un giro en el consenso de analistas hacia un escenario de hike, aunque minoritario, reduce la probabilidad implícita de recortes que el mercado venía descontando.\",\n          \"implication\": \"Consistente con el 2y subiendo más que el 10y hoy (+3pb vs +1pb); el mercado de tasas cortas empieza a reflejar ese riesgo. El FOMC del 9-10 de septiembre es el catalizador inmediato para confirmar o descartar esta revisión.\",\n          \"priced_in\": \"\",\n          \"sources\": [41]\n        }\n      ]\n    },\n    {\n      \"title\": \"Renta fija y crédito\",\n      \"items\": [\n        {\n          \"fact\": \"El spread HY de EE.UU. comprime -1pb a 2.67% el mismo día que el VIX sube +2.93% y el S&P cae -0.40",
+  "headline": "El petróleo sube por la escalada en Irán y reactiva el miedo a la inflación justo antes de la decisión de la Fed, pero la reacción en tasas y crédito es modesta frente al tamaño del titular.",
+  "subhead": "WTI +3.69% y Brent +3.59% [1][31][33] son los movimientos del día; el UST 10y solo sube 1pb y el spread HY en realidad comprime -1pb, lo que contradice la etiqueta de risk-off puro.",
+  "regime_read": "El score de -3.0 (risk-off) se sostiene en VIX +3.31% y oro +1.14% como refugio, pero dos señales no encajan: el spread HY comprime (-1pb) en vez de ampliarse, y el DXY está prácticamente plano (-0.00%) pese a etiquetarse 'fuerte'. Lectura: es un risk-off de índices y commodities más que de crédito; el mercado de bonos corporativos no está validando el susto.",
+  "sections": [
+   {
+    "title": "Macro, tasas y bancos centrales",
+    "items": [
+     {
+      "fact": "El Tesoro de EE.UU. amplió su recompra de bonos de 10-20 años a US$6.000 millones, el triple de lo habitual, y el mercado lo calificó de decepcionante [7][25].",
+      "why": "Una recompra más pequeña de lo esperado reduce menos oferta neta de duración larga de la anticipada, lo que debería presionar yields al alza en el tramo largo.",
+      "implication": "El TLT (UST 20y+) cae -0.52% en el día, coherente con la decepción, pero el 10y solo sube 1pb según FRED: el impacto real en tasas es menor al que sugieren los titulares [3][4].",
+      "priced_in": "El tamaño del buyback ya era conocido antes del anuncio; la sorpresa fue la magnitud, no la existencia de la operación.",
+      "sources": [
+       4,
+       7,
+       25
+      ]
+     },
+     {
+      "fact": "El breakeven 10y sube 2pb y la tasa real 10y sube 1pb en el día, con el petróleo cruzando de nuevo la franja de los US$100 por la escalada del conflicto con Irán [2][6].",
+      "why": "Un shock de oferta energética eleva expectativas de inflación justo cuando la Fed prepara su decisión, complicando la lectura de cualquier señal de moderación monetaria.",
+      "implication": "Presión al alza en breakevens si el petróleo sostiene el nivel; condición: que WTI no retroceda de los US$96-100 en los próximos días.",
+      "priced_in": "",
+      "sources": [
+       2,
+       6
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Renta variable",
+    "items": [
+     {
+      "fact": "Meta sube +6.75% (z=2.25), el movimiento más anómalo del día en el bloque de acciones vigiladas, sin un mecanismo específico identificable en las fuentes disponibles [36].",
+      "why": "No hay noticia que ancle una causa concreta (resultados, guidance, M&A); el roundup de Tech/Media/Telecom la menciona sin detalle accionable.",
+      "implication": "Sin mecanismo verificable, no se puede sostener una tesis direccional sobre este movimiento; queda como anomalía a monitorear, no como señal.",
+      "priced_in": "",
+      "sources": [
+       36
+      ]
+     },
+     {
+      "fact": "FTSE 100 (-1.31%, z=-2.4) y DAX (-1.66%, z=-2.0) registran caídas estadísticamente inusuales para sus propias volatilidades.",
+      "why": "Europa está más expuesta a un shock de precios de energía importada que EE.UU., y el salto del petróleo por la escalada en Irán pega directo en su cuenta de importaciones y en márgenes industriales.",
+      "implication": "Si el petróleo sostiene el nivel actual, la subponderación relativa de renta variable europea frente a EE.UU. gana justificación fundamental, no solo técnica.",
+      "priced_in": "",
+      "sources": [
+       1,
+       31,
+       33
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Renta fija y crédito",
+    "items": [
+     {
+      "fact": "El spread HY en EE.UU. comprime -1pb en el día pese al VIX +3.31% y la etiqueta de risk-off del régimen.",
+      "why": "El crédito de alto rendimiento suele ampliarse en episodios de risk-off genuino; que comprima sugiere que el mercado de bonos no está descontando estrés de refinanciamiento ni deterioro de fundamentales corporativos.",
+      "implication": "Contradicción cross-asset: el temor está en equities/VIX/oro, no en crédito. Vigilar si el spread HY empieza a ampliarse en los próximos días como confirmación de que el risk-off es real y no solo un ajuste de índices.",
+      "priced_in": "",
+      "sources": []
+     }
+    ]
+   },
+   {
+    "title": "Divisas",
+    "items": [
+     {
+      "fact": "El DXY cierra prácticamente plano (-0.00%) pero acumula -0.84% en 5 días y se acerca a un mínimo de siete meses según Bloomberg [14].",
+      "why": "Un dólar débil de fondo, con un día de pausa, es coherente con la narrativa de que el mercado ya está posicionado para tasas más bajas hacia adelante y con la ganancia del oro (+1.14%) como cobertura cambiaria [5][49].",
+      "implication": "Si el DXY rompe el mínimo de siete meses, la presión bajista sobre el dólar debería seguir favoreciendo a monedas EM, incluido el COP.",
+      "priced_in": "La tendencia bajista del dólar en el mes ya estaba en precio; el dato de hoy es solo continuidad, no sorpresa.",
+      "sources": [
+       14
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Commodities",
+    "items": [
+     {
+      "fact": "WTI +3.69% y Brent +3.59% por la escalada del conflicto en torno a Irán, cruzando de nuevo la barrera de los US$100 [1][2][31][33].",
+      "why": "Un conflicto que amenaza rutas o producción de crudo reduce oferta esperada y eleva la prima de riesgo geopolítico incorporada en el precio spot.",
+      "implication": "Sector energético en el S&P sube +1.20% en el día y +8.91% en el mes; Ecopetrol (+0.76% hoy, +75.29% YTD) se beneficia directamente de la mejora en el crudo de referencia.",
+      "priced_in": "",
+      "sources": [
+       1,
+       2,
+       31,
+       33
+      ]
+     },
+     {
+      "fact": "El café cae -8.57% (z=-2.19), el movimiento más anómalo de todo el set de datos, sin ninguna noticia específica en el listado que lo explique.",
+      "why": "No hay mecanismo verificable disponible; podría tratarse de un ajuste técnico o de oferta puntual no capturado en el flujo de noticias del día.",
+      "implication": "Se registra el hecho como anomalía sin tesis direccional asociada, dado que la regla de la casa exige mecanismo antes de implicación.",
+      "priced_in": "",
+      "sources": []
+     }
+    ]
+   },
+   {
+    "title": "Colombia y LatAm",
+    "items": [
+     {
+      "fact": "USD/COP cae -0.69% en el día y -2.04% en 5 días, apreciando el peso, mientras GXG sube +0.41% y Bancolombia +2.23%.",
+      "why": "La apreciación del COP coincide con la tendencia débil del dólar global (DXY -0.84% en 5d) más que con un factor idiosincrático colombiano; el diferencial de tasas y el flujo hacia EM siguen siendo el ancla.",
+      "implication": "Mientras el DXY mantenga su sesgo bajista, el COP tiene viento a favor estructural; una reversión del dólar global sería la condición que invalidaría esta lectura.",
+      "priced_in": "",
+      "sources": [
+       14
+      ]
+     },
+     {
+      "fact": "La deuda bruta de Colombia bajó a 60,1% del PIB a julio [39], mientras Banco de Bogotá advierte que el PGN sugiere un déficit fiscal de 9,4% en el escenario más adverso [43].",
+      "why": "Ambas cifras conviven porque miden cosas distintas: el stock de deuda ya emitida frente al flujo fiscal proyectado; el segundo dato es el que determina la trayectoria futura de emisión de TES.",
+      "implication": "El mercado de TES debería seguir mirando la ejecución del PGN 2026 como el driver de la prima de riesgo local más que el nivel actual de deuda/PIB.",
+      "priced_in": "",
+      "sources": [
+       39,
+       43,
+       45
+      ]
+     }
+    ]
+   }
+  ],
+  "price_action": "El movimiento más grande del día en términos absolutos es el petróleo (WTI +3.69%, Brent +3.59%), con causa clara en la escalada del conflicto con Irán [1][2][31][33]. Meta (+6.75%, z=2.25) y el café (-8.57%, z=-2.19) son los dos movimientos más anómalos en términos estadísticos y NO tienen explicación verificable en el flujo de noticias disponible: se registran como hechos, no como tesis. FTSE y DAX caen de forma inusual para su propia volatilidad, consistente con la exposición europea al shock energético. El VIX sube +3.31% confirmando el tono cauteloso, pero el spread HY comprime, una divergencia que amerita seguimiento.",
+  "what_changed": "La novedad del día es el regreso del petróleo por encima de US$100 por la escalada geopolítica [1][31][33], que reintroduce el riesgo inflacionario justo antes de las reuniones de política monetaria de esta semana. La reacción de tasas (UST 10y +1pb) es notablemente menor a la que sugiere la cobertura de prensa sobre el buyback del Tesoro, lo que indica que buena parte del ajuste de yields ya estaba anticipado.",
+  "cross_asset": "La contradicción más informativa del día: VIX sube y oro sube (clásico risk-off) pero el spread HY comprime -1pb, señal que normalmente acompaña risk-on en crédito. Esto sugiere que el estrés está concentrado en el canal de commodities/geopolítica y no se ha trasladado a percepción de riesgo de crédito corporativo.",
+  "colombia": "El COP se aprecia en línea con la debilidad global del dólar, no por un catalizador local propio hoy. La tensión relevante para TES sigue siendo la brecha entre el nivel de deuda/PIB (60,1%, en descenso [39]) y las proyecciones fiscales más adversas del PGN (déficit de 9,4% [43]), que es el verdadero driver de la prima de riesgo hacia adelante.",
+  "watch_next": [
+   {
+    "when": "2026-09-09",
+    "what": "FOMC Press Release",
+    "why": "Primera de dos comunicaciones consecutivas de la Fed; el mercado necesita saber si el shock de petróleo altera el sesgo de tasas."
+   },
+   {
+    "when": "2026-09-10",
+    "what": "FOMC Press Release",
+    "why": "Segunda comunicación en dos días; inusual, sugiere posible aclaración o corrección de mensaje inicial."
+   },
+   {
+    "when": "próximos días",
+    "what": "Nivel de WTI/Brent frente a US$100",
+    "why": "Determina si la presión sobre breakevens e industriales europeos es transitoria o se consolida."
+   },
+   {
+    "when": "próximos días",
+    "what": "Evolución del spread HY",
+    "why": "Confirmaría o desmentiría si el risk-off se traslada de equities/VIX hacia crédito corporativo."
+   }
+  ],
+  "contrarian": "Si el spread HY sigue comprimiendo y el crédito corporativo no valida el susto de VIX y oro, la etiqueta de risk-off del día podría ser un ajuste de corto plazo en índices y commodities más que un cambio de régimen; el shock petrolero necesitaría sostenerse varias sesiones para tener efecto macro real sobre inflación y tasas.",
+  "learning_note": "El breakeven de inflación (breakeven 10y) es la diferencia entre el yield nominal de un bono del Tesoro y el yield de su equivalente indexado a inflación (TIPS); representa la inflación promedio que el mercado espera durante ese plazo. Cuando sube junto con la tasa real, como hoy (+2pb y +1pb respectivamente), indica que el mercado revisa al alza tanto las expectativas de inflación como el crecimiento real esperado, no solo una de las dos.",
   "_meta": {
    "model": "claude-sonnet-5",
-   "input_tokens": 14147,
-   "output_tokens": 8000,
-   "cost_usd": 0.10829
+   "input_tokens": 14410,
+   "output_tokens": 7031,
+   "cost_usd": 0.09913
   }
  },
  "regime": {
-  "label": "mixto",
-  "score": -1.4,
+  "label": "risk-off",
+  "score": -3.0,
   "signals": [
-   "S&P -0.40%",
-   "VIX +2.9% (sube)",
+   "S&P -0.34%",
+   "VIX +3.3% (sube)",
    "spread HY -1 pb (comprime)",
-   "oro +1.32% (refugio)",
-   "dólar -0.02% (débil)",
-   "emergentes -0.35%"
+   "oro +1.14% (refugio)",
+   "dólar -0.00% (fuerte)",
+   "emergentes -0.20%"
   ]
  },
  "movers": {
@@ -31,19 +186,19 @@
     "name": "Meta",
     "region": "Mega cap",
     "bucket": "acciones_vigiladas",
-    "last": 652.87,
+    "last": 654.88,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": 6.42,
-    "chg_5d": 12.85,
-    "chg_1m": 9.74,
-    "chg_ytd": 0.38,
+    "chg_1d": 6.75,
+    "chg_5d": 13.2,
+    "chg_1m": 10.08,
+    "chg_ytd": 0.69,
     "high_52w": 780.25,
     "low_52w": 525.72,
-    "pct_from_high": -16.33,
-    "z": 2.15,
-    "vol_anual": 47.4,
+    "pct_from_high": -16.07,
+    "z": 2.25,
+    "vol_anual": 47.6,
     "anomalo": true,
     "extremo": false
    },
@@ -52,19 +207,19 @@
     "name": "Petróleo WTI",
     "region": "Energía",
     "bucket": "commodities",
-    "last": 96.41,
+    "last": 96.46,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": 3.63,
-    "chg_5d": 6.86,
-    "chg_1m": 17.39,
-    "chg_ytd": 68.2,
+    "chg_1d": 3.69,
+    "chg_5d": 6.92,
+    "chg_1m": 17.45,
+    "chg_ytd": 68.28,
     "high_52w": 112.95,
     "low_52w": 55.27,
-    "pct_from_high": -14.64,
-    "z": 1.13,
-    "vol_anual": 50.8,
+    "pct_from_high": -14.6,
+    "z": 1.15,
+    "vol_anual": 50.9,
     "anomalo": false,
     "extremo": false
    },
@@ -73,17 +228,17 @@
     "name": "Petróleo Brent",
     "region": "Energía",
     "bucket": "commodities",
-    "last": 101.43,
+    "last": 101.44,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": 3.58,
-    "chg_5d": 7.16,
-    "chg_1m": 15.63,
-    "chg_ytd": 66.96,
+    "chg_1d": 3.59,
+    "chg_5d": 7.17,
+    "chg_1m": 15.64,
+    "chg_ytd": 66.98,
     "high_52w": 118.35,
     "low_52w": 58.92,
-    "pct_from_high": -14.3,
+    "pct_from_high": -14.29,
     "z": 1.04,
     "vol_anual": 54.7,
     "anomalo": false,
@@ -115,19 +270,19 @@
     "name": "VIX",
     "region": "Volatilidad",
     "bucket": "indices",
-    "last": 16.18,
+    "last": 16.24,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": 2.93,
-    "chg_5d": 6.45,
-    "chg_1m": 5.89,
-    "chg_ytd": 11.51,
+    "chg_1d": 3.31,
+    "chg_5d": 6.84,
+    "chg_1m": 6.28,
+    "chg_ytd": 11.92,
     "high_52w": 31.05,
     "low_52w": 13.47,
-    "pct_from_high": -47.89,
-    "z": 0.46,
-    "vol_anual": 101.3,
+    "pct_from_high": -47.7,
+    "z": 0.52,
+    "vol_anual": 101.4,
     "anomalo": false,
     "extremo": false
    }
@@ -159,18 +314,18 @@
     "name": "Gas natural",
     "region": "Energía",
     "bucket": "commodities",
-    "last": 2.81,
+    "last": 2.806,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": -3.64,
-    "chg_5d": -3.24,
-    "chg_1m": 0.57,
-    "chg_ytd": -22.33,
+    "chg_1d": -3.77,
+    "chg_5d": -3.37,
+    "chg_1m": 0.43,
+    "chg_ytd": -22.44,
     "high_52w": 7.46,
     "low_52w": 2.523,
-    "pct_from_high": -62.33,
-    "z": -1.61,
+    "pct_from_high": -62.39,
+    "z": -1.66,
     "vol_anual": 36.0,
     "anomalo": false,
     "extremo": false
@@ -180,18 +335,18 @@
     "name": "Alphabet",
     "region": "Mega cap",
     "bucket": "acciones_vigiladas",
-    "last": 330.41,
+    "last": 330.85,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": -2.35,
-    "chg_5d": -1.38,
-    "chg_1m": -7.58,
-    "chg_ytd": 4.84,
+    "chg_1d": -2.22,
+    "chg_5d": -1.24,
+    "chg_1m": -7.46,
+    "chg_ytd": 4.98,
     "high_52w": 402.62,
     "low_52w": 236.57,
-    "pct_from_high": -17.94,
-    "z": -1.02,
+    "pct_from_high": -17.83,
+    "z": -0.97,
     "vol_anual": 36.4,
     "anomalo": false,
     "extremo": false
@@ -201,18 +356,18 @@
     "name": "Amazon",
     "region": "Mega cap",
     "bucket": "acciones_vigiladas",
-    "last": 251.62,
+    "last": 252.42,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": -2.08,
-    "chg_5d": -1.29,
-    "chg_1m": -9.52,
-    "chg_ytd": 11.09,
+    "chg_1d": -1.77,
+    "chg_5d": -0.98,
+    "chg_1m": -9.23,
+    "chg_ytd": 11.44,
     "high_52w": 284.02,
     "low_52w": 198.79,
-    "pct_from_high": -11.41,
-    "z": -0.74,
+    "pct_from_high": -11.13,
+    "z": -0.63,
     "vol_anual": 44.3,
     "anomalo": false,
     "extremo": false
@@ -222,19 +377,19 @@
     "name": "NU Holdings",
     "region": "LatAm fintech",
     "bucket": "acciones_vigiladas",
-    "last": 15.025,
+    "last": 15.065,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": -1.99,
-    "chg_5d": 3.91,
-    "chg_1m": 8.41,
-    "chg_ytd": -11.72,
+    "chg_1d": -1.73,
+    "chg_5d": 4.18,
+    "chg_1m": 8.69,
+    "chg_ytd": -11.49,
     "high_52w": 18.76,
     "low_52w": 11.6,
-    "pct_from_high": -19.91,
-    "z": -0.79,
-    "vol_anual": 39.9,
+    "pct_from_high": -19.7,
+    "z": -0.69,
+    "vol_anual": 39.8,
     "anomalo": false,
     "extremo": false
    }
@@ -266,19 +421,19 @@
     "name": "Meta",
     "region": "Mega cap",
     "bucket": "acciones_vigiladas",
-    "last": 652.87,
+    "last": 654.88,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": 6.42,
-    "chg_5d": 12.85,
-    "chg_1m": 9.74,
-    "chg_ytd": 0.38,
+    "chg_1d": 6.75,
+    "chg_5d": 13.2,
+    "chg_1m": 10.08,
+    "chg_ytd": 0.69,
     "high_52w": 780.25,
     "low_52w": 525.72,
-    "pct_from_high": -16.33,
-    "z": 2.15,
-    "vol_anual": 47.4,
+    "pct_from_high": -16.07,
+    "z": 2.25,
+    "vol_anual": 47.6,
     "anomalo": true,
     "extremo": false
    },
@@ -287,18 +442,18 @@
     "name": "Gas natural",
     "region": "Energía",
     "bucket": "commodities",
-    "last": 2.81,
+    "last": 2.806,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": -3.64,
-    "chg_5d": -3.24,
-    "chg_1m": 0.57,
-    "chg_ytd": -22.33,
+    "chg_1d": -3.77,
+    "chg_5d": -3.37,
+    "chg_1m": 0.43,
+    "chg_ytd": -22.44,
     "high_52w": 7.46,
     "low_52w": 2.523,
-    "pct_from_high": -62.33,
-    "z": -1.61,
+    "pct_from_high": -62.39,
+    "z": -1.66,
     "vol_anual": 36.0,
     "anomalo": false,
     "extremo": false
@@ -308,19 +463,19 @@
     "name": "Petróleo WTI",
     "region": "Energía",
     "bucket": "commodities",
-    "last": 96.41,
+    "last": 96.46,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": 3.63,
-    "chg_5d": 6.86,
-    "chg_1m": 17.39,
-    "chg_ytd": 68.2,
+    "chg_1d": 3.69,
+    "chg_5d": 6.92,
+    "chg_1m": 17.45,
+    "chg_ytd": 68.28,
     "high_52w": 112.95,
     "low_52w": 55.27,
-    "pct_from_high": -14.64,
-    "z": 1.13,
-    "vol_anual": 50.8,
+    "pct_from_high": -14.6,
+    "z": 1.15,
+    "vol_anual": 50.9,
     "anomalo": false,
     "extremo": false
    },
@@ -329,17 +484,17 @@
     "name": "Petróleo Brent",
     "region": "Energía",
     "bucket": "commodities",
-    "last": 101.43,
+    "last": 101.44,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": 3.58,
-    "chg_5d": 7.16,
-    "chg_1m": 15.63,
-    "chg_ytd": 66.96,
+    "chg_1d": 3.59,
+    "chg_5d": 7.17,
+    "chg_1m": 15.64,
+    "chg_ytd": 66.98,
     "high_52w": 118.35,
     "low_52w": 58.92,
-    "pct_from_high": -14.3,
+    "pct_from_high": -14.29,
     "z": 1.04,
     "vol_anual": 54.7,
     "anomalo": false,
@@ -371,19 +526,19 @@
     "name": "VIX",
     "region": "Volatilidad",
     "bucket": "indices",
-    "last": 16.18,
+    "last": 16.24,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": 2.93,
-    "chg_5d": 6.45,
-    "chg_1m": 5.89,
-    "chg_ytd": 11.51,
+    "chg_1d": 3.31,
+    "chg_5d": 6.84,
+    "chg_1m": 6.28,
+    "chg_ytd": 11.92,
     "high_52w": 31.05,
     "low_52w": 13.47,
-    "pct_from_high": -47.89,
-    "z": 0.46,
-    "vol_anual": 101.3,
+    "pct_from_high": -47.7,
+    "z": 0.52,
+    "vol_anual": 101.4,
     "anomalo": false,
     "extremo": false
    },
@@ -392,40 +547,19 @@
     "name": "Plata",
     "region": "Metal precioso",
     "bucket": "commodities",
-    "last": 68.2,
+    "last": 67.975,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": 2.87,
-    "chg_5d": 5.54,
-    "chg_1m": 4.75,
-    "chg_ytd": -3.34,
+    "chg_1d": 2.53,
+    "chg_5d": 5.2,
+    "chg_1m": 4.41,
+    "chg_ytd": -3.66,
     "high_52w": 115.08,
     "low_52w": 40.878,
-    "pct_from_high": -40.74,
-    "z": 1.12,
-    "vol_anual": 40.6,
-    "anomalo": false,
-    "extremo": false
-   },
-   {
-    "ticker": "GOOGL",
-    "name": "Alphabet",
-    "region": "Mega cap",
-    "bucket": "acciones_vigiladas",
-    "last": 330.41,
-    "ok": true,
-    "source": "yahoo",
-    "as_of": "2026-09-09",
-    "chg_1d": -2.35,
-    "chg_5d": -1.38,
-    "chg_1m": -7.58,
-    "chg_ytd": 4.84,
-    "high_52w": 402.62,
-    "low_52w": 236.57,
-    "pct_from_high": -17.94,
-    "z": -1.02,
-    "vol_anual": 36.4,
+    "pct_from_high": -40.93,
+    "z": 0.99,
+    "vol_anual": 40.5,
     "anomalo": false,
     "extremo": false
    },
@@ -434,19 +568,40 @@
     "name": "Bancolombia",
     "region": "Colombia",
     "bucket": "acciones_vigiladas",
-    "last": 100.95,
+    "last": 100.845,
     "ok": true,
     "source": "yahoo",
     "as_of": "2026-09-09",
-    "chg_1d": 2.33,
-    "chg_5d": 4.88,
-    "chg_1m": 10.36,
-    "chg_ytd": 59.73,
+    "chg_1d": 2.23,
+    "chg_5d": 4.77,
+    "chg_1m": 10.25,
+    "chg_ytd": 59.56,
     "high_52w": 103.26,
     "low_52w": 51.36,
-    "pct_from_high": -2.24,
-    "z": 1.2,
+    "pct_from_high": -2.34,
+    "z": 1.15,
     "vol_anual": 30.8,
+    "anomalo": false,
+    "extremo": false
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "region": "Mega cap",
+    "bucket": "acciones_vigiladas",
+    "last": 330.85,
+    "ok": true,
+    "source": "yahoo",
+    "as_of": "2026-09-09",
+    "chg_1d": -2.22,
+    "chg_5d": -1.24,
+    "chg_1m": -7.46,
+    "chg_ytd": 4.98,
+    "high_52w": 402.62,
+    "low_52w": 236.57,
+    "pct_from_high": -17.83,
+    "z": -0.97,
+    "vol_anual": 36.4,
     "anomalo": false,
     "extremo": false
    }
@@ -474,6 +629,27 @@
     "extremo": false
    },
    {
+    "ticker": "META",
+    "name": "Meta",
+    "region": "Mega cap",
+    "bucket": "acciones_vigiladas",
+    "last": 654.88,
+    "ok": true,
+    "source": "yahoo",
+    "as_of": "2026-09-09",
+    "chg_1d": 6.75,
+    "chg_5d": 13.2,
+    "chg_1m": 10.08,
+    "chg_ytd": 0.69,
+    "high_52w": 780.25,
+    "low_52w": 525.72,
+    "pct_from_high": -16.07,
+    "z": 2.25,
+    "vol_anual": 47.6,
+    "anomalo": true,
+    "extremo": false
+   },
+   {
     "ticker": "KC=F",
     "name": "Café",
     "region": "Agrícola / Colombia",
@@ -491,27 +667,6 @@
     "pct_from_high": -32.66,
     "z": -2.19,
     "vol_anual": 62.1,
-    "anomalo": true,
-    "extremo": false
-   },
-   {
-    "ticker": "META",
-    "name": "Meta",
-    "region": "Mega cap",
-    "bucket": "acciones_vigiladas",
-    "last": 652.87,
-    "ok": true,
-    "source": "yahoo",
-    "as_of": "2026-09-09",
-    "chg_1d": 6.42,
-    "chg_5d": 12.85,
-    "chg_1m": 9.74,
-    "chg_ytd": 0.38,
-    "high_52w": 780.25,
-    "low_52w": 525.72,
-    "pct_from_high": -16.33,
-    "z": 2.15,
-    "vol_anual": 47.4,
     "anomalo": true,
     "extremo": false
    },
@@ -566,7 +721,7 @@
    "name": "S&P 500",
    "region": "EEUU",
    "bucket": "indices",
-   "last": 7643.1602,
+   "last": 7647.5098,
    "series": [
     7230.1201,
     7200.75,
@@ -657,19 +812,19 @@
     7747.71,
     7718.6001,
     7673.52,
-    7643.1602
+    7647.5098
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.4,
-   "chg_5d": 0.15,
-   "chg_1m": -1.42,
-   "chg_ytd": 11.44,
+   "chg_1d": -0.34,
+   "chg_5d": 0.21,
+   "chg_1m": -1.36,
+   "chg_ytd": 11.5,
    "high_52w": 7798.9902,
    "low_52w": 6343.7202,
-   "pct_from_high": -2.0,
-   "z": -0.54,
+   "pct_from_high": -1.94,
+   "z": -0.46,
    "vol_anual": 11.8,
    "anomalo": false,
    "extremo": false
@@ -679,7 +834,7 @@
    "name": "Nasdaq 100",
    "region": "EEUU",
    "bucket": "indices",
-   "last": 29416.4512,
+   "last": 29442.6543,
    "series": [
     27710.3594,
     27651.8203,
@@ -770,19 +925,19 @@
     29482.3203,
     29544.1504,
     29507.6992,
-    29416.4512
+    29442.6543
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.31,
-   "chg_5d": 1.17,
-   "chg_1m": -0.69,
-   "chg_ytd": 16.7,
+   "chg_1d": -0.22,
+   "chg_5d": 1.26,
+   "chg_1m": -0.6,
+   "chg_ytd": 16.81,
    "high_52w": 30660.5996,
    "low_52w": 22953.3809,
-   "pct_from_high": -4.06,
-   "z": -0.22,
+   "pct_from_high": -3.97,
+   "z": -0.16,
    "vol_anual": 22.3,
    "anomalo": false,
    "extremo": false
@@ -792,7 +947,7 @@
    "name": "Dow Jones",
    "region": "EEUU",
    "bucket": "indices",
-   "last": 52451.9805,
+   "last": 52460.1914,
    "series": [
     49499.2695,
     48941.8984,
@@ -883,19 +1038,19 @@
     53686.1094,
     53414.25,
     52786.0703,
-    52451.9805
+    52460.1914
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.63,
-   "chg_5d": -0.6,
-   "chg_1m": -2.82,
-   "chg_ytd": 8.41,
+   "chg_1d": -0.62,
+   "chg_5d": -0.58,
+   "chg_1m": -2.81,
+   "chg_ytd": 8.43,
    "high_52w": 54349.1211,
    "low_52w": 45166.6406,
-   "pct_from_high": -3.49,
-   "z": -0.89,
+   "pct_from_high": -3.48,
+   "z": -0.87,
    "vol_anual": 11.3,
    "anomalo": false,
    "extremo": false
@@ -905,7 +1060,7 @@
    "name": "Russell 2000",
    "region": "EEUU small cap",
    "bucket": "indices",
-   "last": 2924.4128,
+   "last": 2922.366,
    "series": [
     2812.8201,
     2796.0,
@@ -996,19 +1151,19 @@
     2968.27,
     2975.6499,
     2960.2,
-    2924.4128
+    2922.366
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -1.21,
-   "chg_5d": 0.15,
-   "chg_1m": -3.08,
-   "chg_ytd": 16.59,
+   "chg_1d": -1.28,
+   "chg_5d": 0.08,
+   "chg_1m": -3.15,
+   "chg_ytd": 16.51,
    "high_52w": 3068.4199,
    "low_52w": 2305.1101,
-   "pct_from_high": -4.69,
-   "z": -1.4,
+   "pct_from_high": -4.76,
+   "z": -1.47,
    "vol_anual": 13.8,
    "anomalo": false,
    "extremo": false
@@ -1018,7 +1173,7 @@
    "name": "VIX",
    "region": "Volatilidad",
    "bucket": "indices",
-   "last": 16.18,
+   "last": 16.24,
    "series": [
     17.38,
     17.39,
@@ -1109,20 +1264,20 @@
     14.53,
     15.3,
     15.72,
-    16.18
+    16.24
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 2.93,
-   "chg_5d": 6.45,
-   "chg_1m": 5.89,
-   "chg_ytd": 11.51,
+   "chg_1d": 3.31,
+   "chg_5d": 6.84,
+   "chg_1m": 6.28,
+   "chg_ytd": 11.92,
    "high_52w": 31.05,
    "low_52w": 13.47,
-   "pct_from_high": -47.89,
-   "z": 0.46,
-   "vol_anual": 101.3,
+   "pct_from_high": -47.7,
+   "z": 0.52,
+   "vol_anual": 101.4,
    "anomalo": false,
    "extremo": false
   },
@@ -1696,7 +1851,7 @@
    "name": "Emergentes (EEM)",
    "region": "EM global",
    "bucket": "etfs_regionales",
-   "last": 68.59,
+   "last": 68.69,
    "series": [
     64.13,
     64.1,
@@ -1787,19 +1942,19 @@
     67.47,
     68.7,
     68.83,
-    68.59
+    68.69
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.35,
-   "chg_5d": 2.73,
-   "chg_1m": 5.25,
-   "chg_ytd": 21.96,
+   "chg_1d": -0.2,
+   "chg_5d": 2.88,
+   "chg_1m": 5.4,
+   "chg_ytd": 22.14,
    "high_52w": 71.21,
    "low_52w": 51.19,
-   "pct_from_high": -3.68,
-   "z": -0.2,
+   "pct_from_high": -3.54,
+   "z": -0.12,
    "vol_anual": 27.5,
    "anomalo": false,
    "extremo": false
@@ -1809,7 +1964,7 @@
    "name": "Brasil (EWZ)",
    "region": "Brasil",
    "bucket": "etfs_regionales",
-   "last": 37.965,
+   "last": 38.025,
    "series": [
     39.43,
     39.04,
@@ -1900,20 +2055,20 @@
     38.13,
     37.86,
     38.61,
-    37.965
+    38.025
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -1.67,
-   "chg_5d": 3.81,
-   "chg_1m": 7.89,
-   "chg_ytd": 17.9,
+   "chg_1d": -1.52,
+   "chg_5d": 3.98,
+   "chg_1m": 8.06,
+   "chg_ytd": 18.09,
    "high_52w": 41.73,
    "low_52w": 28.79,
-   "pct_from_high": -9.02,
-   "z": -1.2,
-   "vol_anual": 22.1,
+   "pct_from_high": -8.88,
+   "z": -1.09,
+   "vol_anual": 22.0,
    "anomalo": false,
    "extremo": false
   },
@@ -2035,7 +2190,7 @@
    "name": "México (EWW)",
    "region": "México",
    "bucket": "etfs_regionales",
-   "last": 76.44,
+   "last": 76.54,
    "series": [
     76.66,
     75.65,
@@ -2126,19 +2281,19 @@
     76.97,
     76.63,
     76.67,
-    76.44
+    76.54
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.3,
-   "chg_5d": 1.03,
-   "chg_1m": -0.64,
-   "chg_ytd": 9.73,
+   "chg_1d": -0.17,
+   "chg_5d": 1.16,
+   "chg_1m": -0.51,
+   "chg_ytd": 9.88,
    "high_52w": 81.23,
    "low_52w": 64.26,
-   "pct_from_high": -5.9,
-   "z": -0.29,
+   "pct_from_high": -5.77,
+   "z": -0.17,
    "vol_anual": 16.2,
    "anomalo": false,
    "extremo": false
@@ -2148,7 +2303,7 @@
    "name": "LatAm (ILF)",
    "region": "LatAm",
    "bucket": "etfs_regionales",
-   "last": 36.145,
+   "last": 36.215,
    "series": [
     36.2,
     35.76,
@@ -2239,19 +2394,19 @@
     36.35,
     36.07,
     36.52,
-    36.145
+    36.215
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -1.03,
-   "chg_5d": 3.09,
-   "chg_1m": 4.71,
-   "chg_ytd": 17.24,
+   "chg_1d": -0.84,
+   "chg_5d": 3.29,
+   "chg_1m": 4.91,
+   "chg_ytd": 17.47,
    "high_52w": 38.1,
    "low_52w": 27.22,
-   "pct_from_high": -5.13,
-   "z": -0.88,
+   "pct_from_high": -4.95,
+   "z": -0.72,
    "vol_anual": 18.5,
    "anomalo": false,
    "extremo": false
@@ -2261,7 +2416,7 @@
    "name": "China (FXI)",
    "region": "China",
    "bucket": "etfs_regionales",
-   "last": 34.62,
+   "last": 34.665,
    "series": [
     36.81,
     36.55,
@@ -2352,19 +2507,19 @@
     35.34,
     35.88,
     35.0,
-    34.62
+    34.665
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -1.09,
-   "chg_5d": -2.04,
-   "chg_1m": -5.12,
-   "chg_ytd": -13.06,
+   "chg_1d": -0.96,
+   "chg_5d": -1.91,
+   "chg_1m": -5.0,
+   "chg_ytd": -12.95,
    "high_52w": 41.75,
    "low_52w": 31.59,
-   "pct_from_high": -17.08,
-   "z": -0.93,
+   "pct_from_high": -16.97,
+   "z": -0.82,
    "vol_anual": 18.6,
    "anomalo": false,
    "extremo": false
@@ -2374,7 +2529,7 @@
    "name": "Europa (VGK)",
    "region": "Europa",
    "bucket": "etfs_regionales",
-   "last": 90.275,
+   "last": 90.305,
    "series": [
     87.15,
     85.51,
@@ -2465,19 +2620,19 @@
     91.74,
     91.74,
     91.19,
-    90.275
+    90.305
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -1.0,
-   "chg_5d": -0.49,
-   "chg_1m": -2.15,
-   "chg_ytd": 6.76,
+   "chg_1d": -0.97,
+   "chg_5d": -0.46,
+   "chg_1m": -2.12,
+   "chg_ytd": 6.79,
    "high_52w": 93.19,
    "low_52w": 77.9,
-   "pct_from_high": -3.13,
-   "z": -1.31,
+   "pct_from_high": -3.1,
+   "z": -1.27,
    "vol_anual": 12.1,
    "anomalo": false,
    "extremo": false
@@ -2487,7 +2642,7 @@
    "name": "Tecnología",
    "region": "Sector",
    "bucket": "etfs_sectoriales",
-   "last": 187.89,
+   "last": 188.03,
    "series": [
     161.87,
     162.05,
@@ -2578,19 +2733,19 @@
     185.97,
     187.28,
     187.87,
-    187.89
+    188.03
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 0.01,
-   "chg_5d": 2.31,
-   "chg_1m": 0.84,
-   "chg_ytd": 30.21,
+   "chg_1d": 0.09,
+   "chg_5d": 2.39,
+   "chg_1m": 0.92,
+   "chg_ytd": 30.3,
    "high_52w": 198.21,
    "low_52w": 127.5,
-   "pct_from_high": -5.21,
-   "z": 0.01,
+   "pct_from_high": -5.14,
+   "z": 0.05,
    "vol_anual": 30.8,
    "anomalo": false,
    "extremo": false
@@ -2600,7 +2755,7 @@
    "name": "Financiero",
    "region": "Sector",
    "bucket": "etfs_sectoriales",
-   "last": 57.15,
+   "last": 57.155,
    "series": [
     51.92,
     51.58,
@@ -2691,19 +2846,19 @@
     58.56,
     58.1,
     57.3,
-    57.15
+    57.155
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.26,
-   "chg_5d": -0.09,
-   "chg_1m": -1.14,
-   "chg_ytd": 4.04,
+   "chg_1d": -0.25,
+   "chg_5d": -0.08,
+   "chg_1m": -1.13,
+   "chg_ytd": 4.05,
    "high_52w": 58.56,
    "low_52w": 47.81,
-   "pct_from_high": -2.41,
-   "z": -0.32,
+   "pct_from_high": -2.4,
+   "z": -0.31,
    "vol_anual": 12.8,
    "anomalo": false,
    "extremo": false
@@ -2713,7 +2868,7 @@
    "name": "Energía",
    "region": "Sector",
    "bucket": "etfs_sectoriales",
-   "last": 65.495,
+   "last": 65.545,
    "series": [
     58.85,
     59.39,
@@ -2804,19 +2959,19 @@
     64.62,
     64.06,
     64.77,
-    65.495
+    65.545
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 1.12,
-   "chg_5d": 1.12,
-   "chg_1m": 8.83,
-   "chg_ytd": 43.47,
-   "high_52w": 65.495,
+   "chg_1d": 1.2,
+   "chg_5d": 1.2,
+   "chg_1m": 8.91,
+   "chg_ytd": 43.58,
+   "high_52w": 65.545,
    "low_52w": 42.61,
    "pct_from_high": 0.0,
-   "z": 0.82,
+   "z": 0.88,
    "vol_anual": 21.8,
    "anomalo": false,
    "extremo": false
@@ -2826,7 +2981,7 @@
    "name": "Salud",
    "region": "Sector",
    "bucket": "etfs_sectoriales",
-   "last": 166.745,
+   "last": 166.89,
    "series": [
     145.16,
     144.73,
@@ -2917,19 +3072,19 @@
     173.26,
     171.45,
     167.13,
-    166.745
+    166.89
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.23,
-   "chg_5d": -2.87,
-   "chg_1m": -1.01,
-   "chg_ytd": 7.22,
+   "chg_1d": -0.14,
+   "chg_5d": -2.78,
+   "chg_1m": -0.92,
+   "chg_ytd": 7.32,
    "high_52w": 175.68,
    "low_52w": 134.13,
-   "pct_from_high": -5.09,
-   "z": -0.19,
+   "pct_from_high": -5.0,
+   "z": -0.11,
    "vol_anual": 19.4,
    "anomalo": false,
    "extremo": false
@@ -3052,7 +3207,7 @@
    "name": "Utilities",
    "region": "Sector",
    "bucket": "etfs_sectoriales",
-   "last": 43.02,
+   "last": 43.004,
    "series": [
     46.55,
     46.37,
@@ -3143,19 +3298,19 @@
     43.03,
     43.08,
     43.45,
-    43.02
+    43.004
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.99,
-   "chg_5d": 1.08,
-   "chg_1m": -0.26,
-   "chg_ytd": -0.37,
+   "chg_1d": -1.03,
+   "chg_5d": 1.04,
+   "chg_1m": -0.29,
+   "chg_ytd": -0.41,
    "high_52w": 47.73,
    "low_52w": 41.595,
-   "pct_from_high": -9.87,
-   "z": -1.1,
+   "pct_from_high": -9.9,
+   "z": -1.15,
    "vol_anual": 14.3,
    "anomalo": false,
    "extremo": false
@@ -3165,7 +3320,7 @@
    "name": "Consumo básico",
    "region": "Sector",
    "bucket": "etfs_sectoriales",
-   "last": 83.18,
+   "last": 83.15,
    "series": [
     84.17,
     83.54,
@@ -3256,19 +3411,19 @@
     85.26,
     84.58,
     84.02,
-    83.18
+    83.15
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -1.0,
-   "chg_5d": -2.43,
-   "chg_1m": -2.08,
-   "chg_ytd": 7.07,
+   "chg_1d": -1.04,
+   "chg_5d": -2.46,
+   "chg_1m": -2.12,
+   "chg_ytd": 7.03,
    "high_52w": 90.01,
    "low_52w": 75.6,
-   "pct_from_high": -7.59,
-   "z": -0.93,
+   "pct_from_high": -7.62,
+   "z": -0.97,
    "vol_anual": 17.1,
    "anomalo": false,
    "extremo": false
@@ -3278,7 +3433,7 @@
    "name": "Consumo disc.",
    "region": "Sector",
    "bucket": "etfs_sectoriales",
-   "last": 112.59,
+   "last": 112.68,
    "series": [
     118.63,
     117.72,
@@ -3369,19 +3524,19 @@
     116.46,
     114.91,
     113.99,
-    112.59
+    112.68
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -1.23,
-   "chg_5d": -1.75,
-   "chg_1m": -5.92,
-   "chg_ytd": -4.87,
+   "chg_1d": -1.15,
+   "chg_5d": -1.67,
+   "chg_1m": -5.84,
+   "chg_ytd": -4.79,
    "high_52w": 124.52,
    "low_52w": 105.66,
-   "pct_from_high": -9.58,
-   "z": -0.93,
+   "pct_from_high": -9.51,
+   "z": -0.87,
    "vol_anual": 21.0,
    "anomalo": false,
    "extremo": false
@@ -3391,7 +3546,7 @@
    "name": "Semiconductores",
    "region": "Sector",
    "bucket": "etfs_sectoriales",
-   "last": 572.905,
+   "last": 574.2262,
    "series": [
     509.82,
     506.79,
@@ -3482,19 +3637,19 @@
     552.6,
     567.01,
     573.73,
-    572.905
+    574.2262
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.14,
-   "chg_5d": 5.08,
-   "chg_1m": 0.61,
-   "chg_ytd": 53.47,
+   "chg_1d": 0.09,
+   "chg_5d": 5.32,
+   "chg_1m": 0.85,
+   "chg_ytd": 53.82,
    "high_52w": 668.91,
    "low_52w": 297.81,
-   "pct_from_high": -14.35,
-   "z": -0.05,
+   "pct_from_high": -14.15,
+   "z": 0.03,
    "vol_anual": 47.3,
    "anomalo": false,
    "extremo": false
@@ -3504,7 +3659,7 @@
    "name": "UST 20y+ (TLT)",
    "region": "Duración larga",
    "bucket": "renta_fija",
-   "last": 81.75,
+   "last": 81.775,
    "series": [
     85.61,
     84.96,
@@ -3595,19 +3750,19 @@
     82.07,
     82.21,
     82.2,
-    81.75
+    81.775
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.55,
-   "chg_5d": -0.15,
-   "chg_1m": -0.38,
-   "chg_ytd": -6.07,
+   "chg_1d": -0.52,
+   "chg_5d": -0.12,
+   "chg_1m": -0.35,
+   "chg_ytd": -6.04,
    "high_52w": 92.06,
    "low_52w": 81.35,
-   "pct_from_high": -11.2,
-   "z": -0.92,
+   "pct_from_high": -11.17,
+   "z": -0.87,
    "vol_anual": 9.5,
    "anomalo": false,
    "extremo": false
@@ -3617,7 +3772,7 @@
    "name": "UST 7-10y (IEF)",
    "region": "Duración media",
    "bucket": "renta_fija",
-   "last": 91.905,
+   "last": 91.91,
    "series": [
     94.74,
     94.39,
@@ -3708,19 +3863,19 @@
     92.28,
     92.25,
     92.16,
-    91.905
+    91.91
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.28,
+   "chg_1d": -0.27,
    "chg_5d": -0.21,
    "chg_1m": -0.92,
-   "chg_ytd": -4.35,
+   "chg_ytd": -4.34,
    "high_52w": 97.99,
-   "low_52w": 91.905,
-   "pct_from_high": -6.21,
-   "z": -0.92,
+   "low_52w": 91.91,
+   "pct_from_high": -6.2,
+   "z": -0.89,
    "vol_anual": 4.8,
    "anomalo": false,
    "extremo": false
@@ -3730,7 +3885,7 @@
    "name": "UST 1-3y (SHY)",
    "region": "Duración corta",
    "bucket": "renta_fija",
-   "last": 81.6299,
+   "last": 81.6296,
    "series": [
     82.25,
     82.15,
@@ -3821,7 +3976,7 @@
     81.71,
     81.69,
     81.66,
-    81.6299
+    81.6296
    ],
    "ok": true,
    "source": "yahoo",
@@ -3843,7 +3998,7 @@
    "name": "TIPS (TIP)",
    "region": "Indexado inflación",
    "bucket": "renta_fija",
-   "last": 106.8301,
+   "last": 106.835,
    "series": [
     111.35,
     111.15,
@@ -3934,19 +4089,19 @@
     107.0,
     106.97,
     107.05,
-    106.8301
+    106.835
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.21,
+   "chg_1d": -0.2,
    "chg_5d": 0.02,
-   "chg_1m": -0.03,
-   "chg_ytd": -2.76,
+   "chg_1m": -0.02,
+   "chg_ytd": -2.75,
    "high_52w": 112.2,
    "low_52w": 106.77,
-   "pct_from_high": -4.79,
-   "z": -0.76,
+   "pct_from_high": -4.78,
+   "z": -0.73,
    "vol_anual": 4.4,
    "anomalo": false,
    "extremo": false
@@ -3956,7 +4111,7 @@
    "name": "Corp IG (LQD)",
    "region": "Grado inversión",
    "bucket": "renta_fija",
-   "last": 105.295,
+   "last": 105.305,
    "series": [
     108.6,
     108.25,
@@ -4047,19 +4202,19 @@
     105.5,
     105.48,
     105.48,
-    105.295
+    105.305
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.18,
-   "chg_5d": 0.07,
-   "chg_1m": -0.63,
-   "chg_ytd": -4.42,
+   "chg_1d": -0.17,
+   "chg_5d": 0.08,
+   "chg_1m": -0.62,
+   "chg_ytd": -4.41,
    "high_52w": 112.92,
    "low_52w": 105.22,
-   "pct_from_high": -6.75,
-   "z": -0.54,
+   "pct_from_high": -6.74,
+   "z": -0.51,
    "vol_anual": 5.3,
    "anomalo": false,
    "extremo": false
@@ -4069,7 +4224,7 @@
    "name": "Corp HY (HYG)",
    "region": "Alto rendimiento",
    "bucket": "renta_fija",
-   "last": 79.025,
+   "last": 79.02,
    "series": [
     80.06,
     79.8,
@@ -4160,19 +4315,19 @@
     79.21,
     79.16,
     79.12,
-    79.025
+    79.02
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.12,
-   "chg_5d": -0.09,
-   "chg_1m": -0.57,
-   "chg_ytd": -2.04,
+   "chg_1d": -0.13,
+   "chg_5d": -0.1,
+   "chg_1m": -0.58,
+   "chg_ytd": -2.05,
    "high_52w": 81.32,
    "low_52w": 78.72,
-   "pct_from_high": -2.82,
-   "z": -0.59,
+   "pct_from_high": -2.83,
+   "z": -0.63,
    "vol_anual": 3.3,
    "anomalo": false,
    "extremo": false
@@ -4182,7 +4337,7 @@
    "name": "Deuda EM (EMB)",
    "region": "Emergentes USD",
    "bucket": "renta_fija",
-   "last": 94.12,
+   "last": 94.1505,
    "series": [
     95.57,
     95.08,
@@ -4273,19 +4428,19 @@
     94.45,
     94.47,
     94.36,
-    94.12
+    94.1505
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.25,
-   "chg_5d": 0.03,
-   "chg_1m": -0.76,
-   "chg_ytd": -2.26,
+   "chg_1d": -0.22,
+   "chg_5d": 0.06,
+   "chg_1m": -0.73,
+   "chg_ytd": -2.23,
    "high_52w": 97.74,
    "low_52w": 92.95,
-   "pct_from_high": -3.7,
-   "z": -0.81,
+   "pct_from_high": -3.67,
+   "z": -0.71,
    "vol_anual": 4.9,
    "anomalo": false,
    "extremo": false
@@ -4295,7 +4450,7 @@
    "name": "Petróleo WTI",
    "region": "Energía",
    "bucket": "commodities",
-   "last": 96.41,
+   "last": 96.46,
    "series": [
     101.94,
     106.42,
@@ -4386,20 +4541,20 @@
     91.3,
     91.48,
     93.03,
-    96.41
+    96.46
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 3.63,
-   "chg_5d": 6.86,
-   "chg_1m": 17.39,
-   "chg_ytd": 68.2,
+   "chg_1d": 3.69,
+   "chg_5d": 6.92,
+   "chg_1m": 17.45,
+   "chg_ytd": 68.28,
    "high_52w": 112.95,
    "low_52w": 55.27,
-   "pct_from_high": -14.64,
-   "z": 1.13,
-   "vol_anual": 50.8,
+   "pct_from_high": -14.6,
+   "z": 1.15,
+   "vol_anual": 50.9,
    "anomalo": false,
    "extremo": false
   },
@@ -4408,7 +4563,7 @@
    "name": "Petróleo Brent",
    "region": "Energía",
    "bucket": "commodities",
-   "last": 101.43,
+   "last": 101.44,
    "series": [
     108.17,
     114.44,
@@ -4499,18 +4654,18 @@
     95.52,
     96.28,
     97.92,
-    101.43
+    101.44
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 3.58,
-   "chg_5d": 7.16,
-   "chg_1m": 15.63,
-   "chg_ytd": 66.96,
+   "chg_1d": 3.59,
+   "chg_5d": 7.17,
+   "chg_1m": 15.64,
+   "chg_ytd": 66.98,
    "high_52w": 118.35,
    "low_52w": 58.92,
-   "pct_from_high": -14.3,
+   "pct_from_high": -14.29,
    "z": 1.04,
    "vol_anual": 54.7,
    "anomalo": false,
@@ -4521,7 +4676,7 @@
    "name": "Gas natural",
    "region": "Energía",
    "bucket": "commodities",
-   "last": 2.81,
+   "last": 2.806,
    "series": [
     2.78,
     2.867,
@@ -4612,19 +4767,19 @@
     2.913,
     2.975,
     2.916,
-    2.81
+    2.806
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -3.64,
-   "chg_5d": -3.24,
-   "chg_1m": 0.57,
-   "chg_ytd": -22.33,
+   "chg_1d": -3.77,
+   "chg_5d": -3.37,
+   "chg_1m": 0.43,
+   "chg_ytd": -22.44,
    "high_52w": 7.46,
    "low_52w": 2.523,
-   "pct_from_high": -62.33,
-   "z": -1.61,
+   "pct_from_high": -62.39,
+   "z": -1.66,
    "vol_anual": 36.0,
    "anomalo": false,
    "extremo": false
@@ -4634,7 +4789,7 @@
    "name": "Oro",
    "region": "Metal precioso",
    "bucket": "commodities",
-   "last": 4451.7998,
+   "last": 4444.0,
    "series": [
     4629.8999,
     4519.5,
@@ -4725,19 +4880,19 @@
     4491.7002,
     4429.7998,
     4393.8999,
-    4451.7998
+    4444.0
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 1.32,
-   "chg_5d": 2.39,
-   "chg_1m": 2.06,
-   "chg_ytd": 3.18,
+   "chg_1d": 1.14,
+   "chg_5d": 2.21,
+   "chg_1m": 1.88,
+   "chg_ytd": 3.0,
    "high_52w": 5318.3999,
    "low_52w": 3636.8999,
-   "pct_from_high": -16.29,
-   "z": 0.87,
+   "pct_from_high": -16.44,
+   "z": 0.75,
    "vol_anual": 24.2,
    "anomalo": false,
    "extremo": false
@@ -4747,7 +4902,7 @@
    "name": "Plata",
    "region": "Metal precioso",
    "bucket": "commodities",
-   "last": 68.2,
+   "last": 67.975,
    "series": [
     75.951,
     73.072,
@@ -4838,20 +4993,20 @@
     66.973,
     66.047,
     66.297,
-    68.2
+    67.975
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 2.87,
-   "chg_5d": 5.54,
-   "chg_1m": 4.75,
-   "chg_ytd": -3.34,
+   "chg_1d": 2.53,
+   "chg_5d": 5.2,
+   "chg_1m": 4.41,
+   "chg_ytd": -3.66,
    "high_52w": 115.08,
    "low_52w": 40.878,
-   "pct_from_high": -40.74,
-   "z": 1.12,
-   "vol_anual": 40.6,
+   "pct_from_high": -40.93,
+   "z": 0.99,
+   "vol_anual": 40.5,
    "anomalo": false,
    "extremo": false
   },
@@ -4860,7 +5015,7 @@
    "name": "Cobre",
    "region": "Metal industrial",
    "bucket": "commodities",
-   "last": 6.8715,
+   "last": 6.8625,
    "series": [
     5.932,
     5.795,
@@ -4951,20 +5106,20 @@
     6.577,
     6.597,
     6.739,
-    6.8715
+    6.8625
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 1.97,
-   "chg_5d": 5.61,
-   "chg_1m": 4.2,
-   "chg_ytd": 21.84,
-   "high_52w": 6.8715,
+   "chg_1d": 1.83,
+   "chg_5d": 5.47,
+   "chg_1m": 4.06,
+   "chg_ytd": 21.68,
+   "high_52w": 6.8625,
    "low_52w": 4.501,
    "pct_from_high": 0.0,
-   "z": 1.44,
-   "vol_anual": 21.7,
+   "z": 1.34,
+   "vol_anual": 21.6,
    "anomalo": false,
    "extremo": false
   },
@@ -5425,7 +5580,7 @@
    "name": "DXY",
    "region": "Dólar índice",
    "bucket": "fx",
-   "last": 98.821,
+   "last": 98.836,
    "series": [
     98.21,
     98.47,
@@ -5516,19 +5671,19 @@
     99.0,
     99.16,
     98.84,
-    98.821
+    98.836
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.02,
-   "chg_5d": -0.85,
-   "chg_1m": -0.99,
-   "chg_ytd": 0.41,
+   "chg_1d": -0.0,
+   "chg_5d": -0.84,
+   "chg_1m": -0.98,
+   "chg_ytd": 0.42,
    "high_52w": 101.61,
    "low_52w": 96.22,
-   "pct_from_high": -2.74,
-   "z": -0.07,
+   "pct_from_high": -2.73,
+   "z": -0.0,
    "vol_anual": 4.8,
    "anomalo": false,
    "extremo": false
@@ -5651,7 +5806,7 @@
    "name": "USD/JPY",
    "region": "G10 / carry",
    "bucket": "fx",
-   "last": 153.628,
+   "last": 153.678,
    "series": [
     156.508,
     156.829,
@@ -5742,19 +5897,19 @@
     155.66,
     156.197,
     153.855,
-    153.628
+    153.678
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.15,
-   "chg_5d": -4.1,
-   "chg_1m": -3.47,
-   "chg_ytd": -1.98,
+   "chg_1d": -0.12,
+   "chg_5d": -4.07,
+   "chg_1m": -3.44,
+   "chg_ytd": -1.95,
    "high_52w": 163.864,
    "low_52w": 146.413,
-   "pct_from_high": -6.25,
-   "z": -0.28,
+   "pct_from_high": -6.22,
+   "z": -0.22,
    "vol_anual": 8.5,
    "anomalo": false,
    "extremo": false
@@ -5764,7 +5919,7 @@
    "name": "GBP/USD",
    "region": "G10",
    "bucket": "fx",
-   "last": 1.3546,
+   "last": 1.3544,
    "series": [
     1.3592,
     1.3556,
@@ -5855,19 +6010,19 @@
     1.3532,
     1.3517,
     1.3547,
-    1.3546
+    1.3544
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.01,
-   "chg_5d": 0.22,
-   "chg_1m": 0.25,
-   "chg_ytd": 0.54,
+   "chg_1d": -0.02,
+   "chg_5d": 0.21,
+   "chg_1m": 0.24,
+   "chg_ytd": 0.52,
    "high_52w": 1.3825,
    "low_52w": 1.3022,
-   "pct_from_high": -2.02,
-   "z": -0.03,
+   "pct_from_high": -2.04,
+   "z": -0.06,
    "vol_anual": 5.6,
    "anomalo": false,
    "extremo": false
@@ -5877,7 +6032,7 @@
    "name": "USD/BRL",
    "region": "LatAm",
    "bucket": "fx",
-   "last": 5.1105,
+   "last": 5.1079,
    "series": [
     4.9323,
     4.9449,
@@ -5968,19 +6123,19 @@
     5.101,
     5.1262,
     5.1267,
-    5.1105
+    5.1079
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.32,
-   "chg_5d": -0.81,
-   "chg_1m": 0.09,
-   "chg_ytd": -7.37,
+   "chg_1d": -0.37,
+   "chg_5d": -0.86,
+   "chg_1m": 0.04,
+   "chg_ytd": -7.42,
    "high_52w": 5.59,
    "low_52w": 4.9064,
-   "pct_from_high": -8.58,
-   "z": -0.56,
+   "pct_from_high": -8.62,
+   "z": -0.65,
    "vol_anual": 9.0,
    "anomalo": false,
    "extremo": false
@@ -5990,7 +6145,7 @@
    "name": "USD/MXN",
    "region": "LatAm",
    "bucket": "fx",
-   "last": 16.8987,
+   "last": 16.8979,
    "series": [
     17.254,
     17.2775,
@@ -6081,7 +6236,7 @@
     16.9102,
     16.8855,
     16.9473,
-    16.8987
+    16.8979
    ],
    "ok": true,
    "source": "yahoo",
@@ -6092,7 +6247,7 @@
    "chg_ytd": -6.04,
    "high_52w": 18.6755,
    "low_52w": 16.8855,
-   "pct_from_high": -9.51,
+   "pct_from_high": -9.52,
    "z": -0.8,
    "vol_anual": 5.7,
    "anomalo": false,
@@ -6103,7 +6258,7 @@
    "name": "USD/CLP",
    "region": "LatAm",
    "bucket": "fx",
-   "last": 927.18,
+   "last": 926.95,
    "series": [
     896.12,
     890.47,
@@ -6194,19 +6349,19 @@
     932.64,
     930.56,
     933.89,
-    927.18
+    926.95
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.72,
-   "chg_5d": -0.9,
-   "chg_1m": 1.33,
-   "chg_ytd": 3.06,
+   "chg_1d": -0.74,
+   "chg_5d": -0.93,
+   "chg_1m": 1.31,
+   "chg_ytd": 3.04,
    "high_52w": 970.04,
    "low_52w": 852.37,
-   "pct_from_high": -4.42,
-   "z": -1.4,
+   "pct_from_high": -4.44,
+   "z": -1.43,
    "vol_anual": 8.2,
    "anomalo": false,
    "extremo": false
@@ -6216,7 +6371,7 @@
    "name": "NVIDIA",
    "region": "Mega cap",
    "bucket": "acciones_vigiladas",
-   "last": 223.64,
+   "last": 224.1301,
    "series": [
     198.45,
     198.48,
@@ -6307,19 +6462,19 @@
     228.45,
     230.36,
     225.73,
-    223.64
+    224.1301
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.93,
-   "chg_5d": 2.85,
-   "chg_1m": 2.8,
-   "chg_ytd": 18.42,
+   "chg_1d": -0.71,
+   "chg_5d": 3.08,
+   "chg_1m": 3.02,
+   "chg_ytd": 18.68,
    "high_52w": 235.74,
    "low_52w": 165.17,
-   "pct_from_high": -5.13,
-   "z": -0.36,
+   "pct_from_high": -4.92,
+   "z": -0.28,
    "vol_anual": 40.6,
    "anomalo": false,
    "extremo": false
@@ -6329,7 +6484,7 @@
    "name": "Apple",
    "region": "Mega cap",
    "bucket": "acciones_vigiladas",
-   "last": 316.41,
+   "last": 315.94,
    "series": [
     280.14,
     276.83,
@@ -6420,19 +6575,19 @@
     328.21,
     319.97,
     316.22,
-    316.41
+    315.94
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 0.06,
-   "chg_5d": -2.68,
-   "chg_1m": 2.64,
-   "chg_ytd": 16.75,
+   "chg_1d": -0.09,
+   "chg_5d": -2.83,
+   "chg_1m": 2.49,
+   "chg_ytd": 16.58,
    "high_52w": 340.08,
    "low_52w": 226.79,
-   "pct_from_high": -6.96,
-   "z": 0.03,
+   "pct_from_high": -7.1,
+   "z": -0.05,
    "vol_anual": 31.3,
    "anomalo": false,
    "extremo": false
@@ -6442,7 +6597,7 @@
    "name": "Microsoft",
    "region": "Mega cap",
    "bucket": "acciones_vigiladas",
-   "last": 492.05,
+   "last": 491.395,
    "series": [
     414.44,
     413.62,
@@ -6533,19 +6688,19 @@
     510.12,
     499.7,
     493.95,
-    492.05
+    491.395
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -0.38,
-   "chg_5d": -1.79,
-   "chg_1m": -2.77,
-   "chg_ytd": 4.04,
+   "chg_1d": -0.52,
+   "chg_5d": -1.92,
+   "chg_1m": -2.9,
+   "chg_ytd": 3.9,
    "high_52w": 542.07,
    "low_52w": 352.83,
-   "pct_from_high": -9.23,
-   "z": -0.14,
+   "pct_from_high": -9.35,
+   "z": -0.19,
    "vol_anual": 43.7,
    "anomalo": false,
    "extremo": false
@@ -6555,7 +6710,7 @@
    "name": "Alphabet",
    "region": "Mega cap",
    "bucket": "acciones_vigiladas",
-   "last": 330.41,
+   "last": 330.85,
    "series": [
     385.69,
     383.25,
@@ -6646,19 +6801,19 @@
     342.48,
     338.46,
     338.36,
-    330.41
+    330.85
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -2.35,
-   "chg_5d": -1.38,
-   "chg_1m": -7.58,
-   "chg_ytd": 4.84,
+   "chg_1d": -2.22,
+   "chg_5d": -1.24,
+   "chg_1m": -7.46,
+   "chg_ytd": 4.98,
    "high_52w": 402.62,
    "low_52w": 236.57,
-   "pct_from_high": -17.94,
-   "z": -1.02,
+   "pct_from_high": -17.83,
+   "z": -0.97,
    "vol_anual": 36.4,
    "anomalo": false,
    "extremo": false
@@ -6668,7 +6823,7 @@
    "name": "Amazon",
    "region": "Mega cap",
    "bucket": "acciones_vigiladas",
-   "last": 251.62,
+   "last": 252.42,
    "series": [
     268.26,
     272.05,
@@ -6759,19 +6914,19 @@
     258.9,
     258.51,
     256.97,
-    251.62
+    252.42
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -2.08,
-   "chg_5d": -1.29,
-   "chg_1m": -9.52,
-   "chg_ytd": 11.09,
+   "chg_1d": -1.77,
+   "chg_5d": -0.98,
+   "chg_1m": -9.23,
+   "chg_ytd": 11.44,
    "high_52w": 284.02,
    "low_52w": 198.79,
-   "pct_from_high": -11.41,
-   "z": -0.74,
+   "pct_from_high": -11.13,
+   "z": -0.63,
    "vol_anual": 44.3,
    "anomalo": false,
    "extremo": false
@@ -6781,7 +6936,7 @@
    "name": "Meta",
    "region": "Mega cap",
    "bucket": "acciones_vigiladas",
-   "last": 652.87,
+   "last": 654.88,
    "series": [
     608.75,
     610.41,
@@ -6872,20 +7027,20 @@
     610.68,
     616.77,
     613.48,
-    652.87
+    654.88
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 6.42,
-   "chg_5d": 12.85,
-   "chg_1m": 9.74,
-   "chg_ytd": 0.38,
+   "chg_1d": 6.75,
+   "chg_5d": 13.2,
+   "chg_1m": 10.08,
+   "chg_ytd": 0.69,
    "high_52w": 780.25,
    "low_52w": 525.72,
-   "pct_from_high": -16.33,
-   "z": 2.15,
-   "vol_anual": 47.4,
+   "pct_from_high": -16.07,
+   "z": 2.25,
+   "vol_anual": 47.6,
    "anomalo": true,
    "extremo": false
   },
@@ -6894,7 +7049,7 @@
    "name": "Tesla",
    "region": "Mega cap",
    "bucket": "acciones_vigiladas",
-   "last": 369.14,
+   "last": 369.46,
    "series": [
     390.82,
     392.51,
@@ -6985,19 +7140,19 @@
     376.37,
     354.08,
     368.16,
-    369.14
+    369.46
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 0.27,
-   "chg_5d": 3.66,
-   "chg_1m": 11.56,
-   "chg_ytd": -15.73,
+   "chg_1d": 0.35,
+   "chg_5d": 3.75,
+   "chg_1m": 11.66,
+   "chg_ytd": -15.66,
    "high_52w": 489.88,
    "low_52w": 298.32,
-   "pct_from_high": -24.65,
-   "z": 0.08,
+   "pct_from_high": -24.58,
+   "z": 0.1,
    "vol_anual": 56.9,
    "anomalo": false,
    "extremo": false
@@ -7007,7 +7162,7 @@
    "name": "NU Holdings",
    "region": "LatAm fintech",
    "bucket": "acciones_vigiladas",
-   "last": 15.025,
+   "last": 15.065,
    "series": [
     14.44,
     14.16,
@@ -7098,20 +7253,20 @@
     15.68,
     15.37,
     15.33,
-    15.025
+    15.065
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": -1.99,
-   "chg_5d": 3.91,
-   "chg_1m": 8.41,
-   "chg_ytd": -11.72,
+   "chg_1d": -1.73,
+   "chg_5d": 4.18,
+   "chg_1m": 8.69,
+   "chg_ytd": -11.49,
    "high_52w": 18.76,
    "low_52w": 11.6,
-   "pct_from_high": -19.91,
-   "z": -0.79,
-   "vol_anual": 39.9,
+   "pct_from_high": -19.7,
+   "z": -0.69,
+   "vol_anual": 39.8,
    "anomalo": false,
    "extremo": false
   },
@@ -7120,7 +7275,7 @@
    "name": "Ecopetrol",
    "region": "Colombia",
    "bucket": "acciones_vigiladas",
-   "last": 17.825,
+   "last": 17.915,
    "series": [
     13.92,
     14.03,
@@ -7211,19 +7366,19 @@
     17.2,
     17.25,
     17.78,
-    17.825
+    17.915
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 0.25,
-   "chg_5d": 2.15,
-   "chg_1m": 4.55,
-   "chg_ytd": 74.41,
-   "high_52w": 17.89,
+   "chg_1d": 0.76,
+   "chg_5d": 2.66,
+   "chg_1m": 5.07,
+   "chg_ytd": 75.29,
+   "high_52w": 17.915,
    "low_52w": 8.61,
-   "pct_from_high": -0.36,
-   "z": 0.1,
+   "pct_from_high": 0.0,
+   "z": 0.32,
    "vol_anual": 37.9,
    "anomalo": false,
    "extremo": false
@@ -7233,7 +7388,7 @@
    "name": "Grupo Aval",
    "region": "Colombia",
    "bucket": "acciones_vigiladas",
-   "last": 5.36,
+   "last": 5.37,
    "series": [
     4.4,
     4.33,
@@ -7324,19 +7479,19 @@
     5.33,
     5.34,
     5.33,
-    5.36
+    5.37
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 0.56,
-   "chg_5d": 2.29,
-   "chg_1m": 1.52,
-   "chg_ytd": 32.67,
+   "chg_1d": 0.75,
+   "chg_5d": 2.48,
+   "chg_1m": 1.7,
+   "chg_ytd": 32.92,
    "high_52w": 5.75,
    "low_52w": 3.16,
-   "pct_from_high": -6.78,
-   "z": 0.27,
+   "pct_from_high": -6.61,
+   "z": 0.36,
    "vol_anual": 33.0,
    "anomalo": false,
    "extremo": false
@@ -7346,7 +7501,7 @@
    "name": "Bancolombia",
    "region": "Colombia",
    "bucket": "acciones_vigiladas",
-   "last": 100.95,
+   "last": 100.845,
    "series": [
     67.04,
     65.22,
@@ -7437,19 +7592,19 @@
     101.87,
     100.58,
     98.65,
-    100.95
+    100.845
    ],
    "ok": true,
    "source": "yahoo",
    "as_of": "2026-09-09",
-   "chg_1d": 2.33,
-   "chg_5d": 4.88,
-   "chg_1m": 10.36,
-   "chg_ytd": 59.73,
+   "chg_1d": 2.23,
+   "chg_5d": 4.77,
+   "chg_1m": 10.25,
+   "chg_ytd": 59.56,
    "high_52w": 103.26,
    "low_52w": 51.36,
-   "pct_from_high": -2.24,
-   "z": 1.2,
+   "pct_from_high": -2.34,
+   "z": 1.15,
    "vol_anual": 30.8,
    "anomalo": false,
    "extremo": false
@@ -7460,14 +7615,14 @@
    "bucket": "crypto",
    "region": "Cripto",
    "ok": true,
-   "last": 78413,
-   "chg_1d": 0.03,
+   "last": 78471,
+   "chg_1d": 0.01,
    "chg_5d": 1.4,
    "chg_1m": 22.8,
    "chg_ytd": null,
-   "market_cap": 1574596125467,
+   "market_cap": 1576070842715,
    "high_52w": 126080,
-   "pct_from_high": -37.81,
+   "pct_from_high": -37.76,
    "series": [],
    "z": null,
    "vol_anual": null,
@@ -7480,14 +7635,14 @@
    "bucket": "crypto",
    "region": "Cripto",
    "ok": true,
-   "last": 2480.95,
-   "chg_1d": -0.15,
+   "last": 2482.43,
+   "chg_1d": -0.19,
    "chg_5d": 3.8,
    "chg_1m": 32.6,
    "chg_ytd": null,
-   "market_cap": 302729927130,
+   "market_cap": 302971233551,
    "high_52w": 4946.05,
-   "pct_from_high": -49.84,
+   "pct_from_high": -49.81,
    "series": [],
    "z": null,
    "vol_anual": null,
@@ -7500,14 +7655,14 @@
    "bucket": "crypto",
    "region": "Cripto",
    "ok": true,
-   "last": 103.27,
-   "chg_1d": -0.01,
+   "last": 103.21,
+   "chg_1d": -0.15,
    "chg_5d": 4.1,
    "chg_1m": 36.1,
    "chg_ytd": null,
-   "market_cap": 60534329132,
+   "market_cap": 60520036473,
    "high_52w": 293.31,
-   "pct_from_high": -64.79,
+   "pct_from_high": -64.81,
    "series": [],
    "z": null,
    "vol_anual": null,
@@ -7521,11 +7676,11 @@
    "region": "Cripto",
    "ok": true,
    "last": 1.42,
-   "chg_1d": -0.81,
+   "chg_1d": -0.87,
    "chg_5d": 6.0,
    "chg_1m": 39.2,
    "chg_ytd": null,
-   "market_cap": 88922397358,
+   "market_cap": 88943503866,
    "high_52w": 3.65,
    "pct_from_high": -61.13,
    "series": [],
@@ -7540,14 +7695,14 @@
    "bucket": "crypto",
    "region": "Cripto",
    "ok": true,
-   "last": 739.95,
-   "chg_1d": -1.2,
+   "last": 741.39,
+   "chg_1d": -1.03,
    "chg_5d": 7.7,
    "chg_1m": 23.4,
    "chg_ytd": null,
-   "market_cap": 98520834678,
+   "market_cap": 98727279229,
    "high_52w": 1369.99,
-   "pct_from_high": -45.99,
+   "pct_from_high": -45.88,
    "series": [],
    "z": null,
    "vol_anual": null,
@@ -8820,10 +8975,10 @@
  ],
  "items": [
   {
-   "title": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel after Iran war escalates - Greenwich Time",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPX2F6bmozTTRSay1FTGVYQTR3TW1TZXZMNHQ1LUoxOVY3U21xUVFjTUt4NEd3Y2JQWUdlYV9fQUxUQVROY2sxTDRWSGxsVVJLLWpJX0RtQlZXTHl3REdnMnJzanB0QWV0b0l0YUxEVFBOZUNKMjItWmlLT3ZuXzZHQ090SFVYTlJOc0Y4dUlROVF0cGVFLVZmVm51eW1JeVdBUXh0dTBqRkVYX0FSUHR3?oc=5",
-   "summary": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel after Iran war escalates &nbsp;&nbsp; Greenwich Time",
-   "published": "2026-09-09T16:04:49+00:00",
+   "title": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel after Iran war escalates - Boston Herald",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBIMVBkeWRvcFVlY3dJdlc0SWdDYmJxZnFINGxTNEFMMHkxZDhMa2hSNi1YdUE4cFVXNkRfaHFObU1nQ2lZSGtqZFFnYW9SSzZVUk8wSWo1Uk5ybjBMWU5ENE50Wlp5ek1BX1NlMnNR?oc=5",
+   "summary": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel after Iran war escalates &nbsp;&nbsp; Boston Herald",
+   "published": "2026-09-09T19:07:30+00:00",
    "source": "Commodities",
    "tier": 2,
    "topic": "commodities",
@@ -8831,7 +8986,7 @@
    "also_in": [
     "Commodities"
    ],
-   "score": 18.53
+   "score": 21.75
   },
   {
    "title": "Oil’s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
@@ -8842,7 +8997,29 @@
    "tier": 2,
    "topic": "markets",
    "n_sources": 1,
-   "score": 12.83
+   "score": 12.63
+  },
+  {
+   "title": "Bond Yields Rise After Treasury Reveals Buyback Details - WSJ",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVDNGMjhOMjVKTDhwaDE3NXRRbVJTckpUNUtRamZfQnhuSzB4UlhZTlJySUdXUlZ0V0hxdE1hdkRUb2dvWXFmVENYQTVmZWNza1gtLVpoNlBBdUs3OFZwTGwtLVFNUFlOQmR5OTdNc3llRWRxdzhySkY2eTNleE9MVk5OT2JfUlQyNjNHYnJiYjFiRTJDMzVkOGYxMlBNTWpJMWc?oc=5",
+   "summary": "Bond Yields Rise After Treasury Reveals Buyback Details &nbsp;&nbsp; WSJ",
+   "published": "2026-09-09T17:02:22+00:00",
+   "source": "WSJ · Economía",
+   "tier": 1,
+   "topic": "macro",
+   "n_sources": 1,
+   "score": 10.95
+  },
+  {
+   "title": "Treasury yields jump as Bessent’s $6bn buyback plan disappoints investors - Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcE95dDNESHJwT3Fpc3dxT3pERW81ZXRhdUh2LXpub2hzN2YxM0hWS0U2ejROZmtwUXR2UUNyMjZmelVXV3BuUmZ1emdNMHZlQmxmSlltazdvTEdEc2U1NEFMNWsyNXNKV1BXaVI1aDFQaU93SlhlR0hGdno1Wi0wNEcyQ1o?oc=5",
+   "summary": "Treasury yields jump as Bessent’s $6bn buyback plan disappoints investors &nbsp;&nbsp; Financial Times",
+   "published": "2026-09-09T15:16:35+00:00",
+   "source": "Financial Times",
+   "tier": 1,
+   "topic": "markets",
+   "n_sources": 1,
+   "score": 9.89
   },
   {
    "title": "Gold Futures Edge Up Despite Higher U.S. Yields",
@@ -8853,7 +9030,7 @@
    "tier": 1,
    "topic": "markets",
    "n_sources": 1,
-   "score": 9.85
+   "score": 9.7
   },
   {
    "title": "Fed rate hike hinges on two key inflation reports in the next two days",
@@ -8864,7 +9041,21 @@
    "tier": 2,
    "topic": "markets",
    "n_sources": 1,
-   "score": 9.38
+   "score": 9.24
+  },
+  {
+   "title": "U.S. Treasury Plans $6 Billion 10- to 20-Year Bond Buyback",
+   "url": "https://www.wsj.com/finance/investing/u-s-treasury-plans-6-billion-10-to-20-year-bond-buyback-d12d3647?mod=rss_markets_main",
+   "summary": "The U.S. Treasury raised the size of its planned buyback operation for Treasurys maturing in 10 to 20 years to $6 billion, triple the typical amount.",
+   "published": "2026-09-09T16:02:00+00:00",
+   "source": "WSJ · Mercados",
+   "tier": 1,
+   "topic": "markets",
+   "n_sources": 2,
+   "also_in": [
+    "WSJ · Economía"
+   ],
+   "score": 9.1
   },
   {
    "title": "Crypto ETFs in 2026: Bitcoin, Ethereum and the Altcoin Wave Explained - ETF.com",
@@ -8875,7 +9066,7 @@
    "tier": 2,
    "topic": "crypto",
    "n_sources": 1,
-   "score": 8.47
+   "score": 8.34
   },
   {
    "title": "Mexico Inflation Rate August 2026: Annual CPI Rises to 3.26% | Core Slows - News and Statistics - IndexBox",
@@ -8886,7 +9077,7 @@
    "tier": 2,
    "topic": "macro",
    "n_sources": 1,
-   "score": 8.47
+   "score": 8.34
   },
   {
    "title": "Financial Services Roundup: Market Talk",
@@ -8900,7 +9091,18 @@
    "also_in": [
     "WSJ · Mercados"
    ],
-   "score": 8.16
+   "score": 8.03
+  },
+  {
+   "title": "Reforma pensional: Colpensiones superará 10 millones de cotizantes en 2027 y recibirá más de $5,5 billones - Valora Analitik",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQ2JLUjUwSlE3MmFKOGJJQUVPY210RmJ3bnF2c3kwYVhHdldGS216SzV3QjlINXZ6SUgxR0tEQ09iYlFreHZPb3ZYeVk0MW54S3FOOV95NU5wTGw0RVNhZExtU01hYVVKZlFjQXc1eGZac2xzeG9SSDRXOS1rTVpuQXZWbDdlcEM5YUxMNXFjVXRYSkRzWjlEcy1NWUpLcUI3U19GZWlHTm9jRkVnX3J1bXZZYkM4WWpVVXRlSFlySENhSTU5RTRHQUNYYlRqb1NsNlZRM2xUR2ZkU3FsUkpuenlsTlhadGIt0gHoAUFVX3lxTE9DYktSNTBKUTcyYUo4YklBRU9jbXRGYnducXZzeTBhWEd2V0ZLbXpLNXdCOUg1dnpJSDFHS0RDT2JiUWt4dk9vdlh5WTQxbnhLcU45X3k1TnBMbDRFU2FkTG1TTWFhVUpmUWNBdzV4ZlpzbHN4b1JINFc5LWtNWm5BdlZsN2VwQzlhTEw1cWNVdFhKRHNaOURzLU1ZSktxQjdTX0ZlaUdOb2NGRWdfcnVtdlliQzhZalVVdGVIWXJIQ2FJNTlFNEdBQ1hiVGpvU2w2VlEzbFRHZmRTcWxSSm56eWxOWFp0Yi0?oc=5",
+   "summary": "Reforma pensional: Colpensiones superará 10 millones de cotizantes en 2027 y recibirá más de $5,5 billones &nbsp;&nbsp; Valora Analitik",
+   "published": "2026-09-09T17:11:53+00:00",
+   "source": "Valora Analitik",
+   "tier": 2,
+   "topic": "colombia",
+   "n_sources": 1,
+   "score": 7.96
   },
   {
    "title": "Investors worried about rising bond yields are keeping a close eye on this corner of the market",
@@ -8911,7 +9113,7 @@
    "tier": 2,
    "topic": "markets",
    "n_sources": 1,
-   "score": 8.03
+   "score": 7.91
   },
   {
    "title": "How Circle's latest acquisition brings the company one step closer to stablecoin supremacy - Yahoo Finance",
@@ -8922,7 +9124,7 @@
    "tier": 2,
    "topic": "crypto",
    "n_sources": 1,
-   "score": 8.0
+   "score": 7.87
   },
   {
    "title": "Dollar Eyes Seven-Month Low With US Buybacks, Inflation In Focus - Bloomberg",
@@ -8933,7 +9135,7 @@
    "tier": 1,
    "topic": "markets",
    "n_sources": 1,
-   "score": 7.99
+   "score": 7.87
   },
   {
    "title": "U.S. Bank tests proprietary stablecoin in cross-border Stellar transaction - TradingView",
@@ -8944,7 +9146,7 @@
    "tier": 2,
    "topic": "crypto",
    "n_sources": 1,
-   "score": 7.82
+   "score": 7.7
   },
   {
    "title": "Banco de la República: Precio del oro en Colombia este miércoles 9 de septiembre - Infobae",
@@ -8955,7 +9157,7 @@
    "tier": 1,
    "topic": "colombia",
    "n_sources": 1,
-   "score": 7.67
+   "score": 7.55
   },
   {
    "title": "Inflación persistente desafía al Banco de la República en su política - Estrella Digital Colombia",
@@ -8966,29 +9168,7 @@
    "tier": 1,
    "topic": "colombia",
    "n_sources": 1,
-   "score": 7.62
-  },
-  {
-   "title": "U.S. Treasury Plans $6 Billion 10- to 20-Year Bond Buyback",
-   "url": "https://www.wsj.com/finance/investing/u-s-treasury-plans-6-billion-10-to-20-year-bond-buyback-d12d3647?mod=rss_markets_main",
-   "summary": "The U.S. Treasury raised the size of its planned buyback operation for Treasurys maturing in 10 to 20 years to $6 billion, triple the typical amount.",
-   "published": "2026-09-09T16:02:00+00:00",
-   "source": "WSJ · Mercados",
-   "tier": 1,
-   "topic": "markets",
-   "n_sources": 1,
-   "score": 7.56
-  },
-  {
-   "title": "La inflación vuelve a poner contra las cuerdas al Banco de la República: aumenta el riesgo de una nueva subida de tasas - Revista Semana",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOVzNIM1FFSTA2VGdIMUdzbkVZaFFfR2VPaVg4RHZRZHRUTmxfMW5nN1hVSzl4SkFUMjBsR3lBa1NEMUo0b2lhd29jdmdWM1RSY1B3dVFPaVZ5WGdTYmd0Vm9fTERPelY0VGhaZ2hKcko3NzlscGh3OTVzN01ST1JXY3BnNUJCTHBpQUthaHVUY1VmTVpodnZmbjJEbkJSTHJ2WElIR1VzYWo5cERrUERIWjdJaEwxaTNJQ3o3WkZWS1dIR0xZZk01STNfSDFYalVmdlpCdXdyWUhMekJhUEpYY0ZXaXVoY0p2VDZBQm5SWTYteG03dE5USWxnRktDTllIN0Z30gGIAkFVX3lxTE50OXNWbXRKSjQ3RlFJWFlmOF8zTWV5M0xOZkVaczJHWGZaV0NsLXItbUZFcFR2U1hpZV94eU14dGM0YUFEM29NbmhLZlMxSWVpSWR1R3hyX0syZndxS1pmUVhPNEpBblNlZWNzVHpyN1Z3Tm9ZWDVHa0QtdEVYWmFTZExGeGF4ZEVJOGRzNmt1QlZVREtqdTlvQTA3Rmt4QWZsblJnejFJMDJjWTFoU3BHSmNUSlEyVjlXQkZpeURfYTh1SzRxOXFOTTNmS2h5VWkzbWx2U2VtaHV6dXVHdzRNLUlvZTlEZmlkek5uQ1MtbTJvbkJwNmlOVTBMcE9uWElsdE9ZLWNzSw?oc=5",
-   "summary": "La inflación vuelve a poner contra las cuerdas al Banco de la República: aumenta el riesgo de una nueva subida de tasas &nbsp;&nbsp; Revista Semana",
-   "published": "2026-09-09T11:01:57+00:00",
-   "source": "Banrep (GNews)",
-   "tier": 1,
-   "topic": "colombia",
-   "n_sources": 1,
-   "score": 7.55
+   "score": 7.5
   },
   {
    "title": "Ethereum ETFs Just Posted a $24 Million Outflow After an $824 Million Week. Is the Streak Over? - Yahoo Finance",
@@ -9002,7 +9182,29 @@
    "also_in": [
     "Cripto"
    ],
-   "score": 7.55
+   "score": 7.44
+  },
+  {
+   "title": "La inflación vuelve a poner contra las cuerdas al Banco de la República: aumenta el riesgo de una nueva subida de tasas - Revista Semana",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOVzNIM1FFSTA2VGdIMUdzbkVZaFFfR2VPaVg4RHZRZHRUTmxfMW5nN1hVSzl4SkFUMjBsR3lBa1NEMUo0b2lhd29jdmdWM1RSY1B3dVFPaVZ5WGdTYmd0Vm9fTERPelY0VGhaZ2hKcko3NzlscGh3OTVzN01ST1JXY3BnNUJCTHBpQUthaHVUY1VmTVpodnZmbjJEbkJSTHJ2WElIR1VzYWo5cERrUERIWjdJaEwxaTNJQ3o3WkZWS1dIR0xZZk01STNfSDFYalVmdlpCdXdyWUhMekJhUEpYY0ZXaXVoY0p2VDZBQm5SWTYteG03dE5USWxnRktDTllIN0Z30gGIAkFVX3lxTE50OXNWbXRKSjQ3RlFJWFlmOF8zTWV5M0xOZkVaczJHWGZaV0NsLXItbUZFcFR2U1hpZV94eU14dGM0YUFEM29NbmhLZlMxSWVpSWR1R3hyX0syZndxS1pmUVhPNEpBblNlZWNzVHpyN1Z3Tm9ZWDVHa0QtdEVYWmFTZExGeGF4ZEVJOGRzNmt1QlZVREtqdTlvQTA3Rmt4QWZsblJnejFJMDJjWTFoU3BHSmNUSlEyVjlXQkZpeURfYTh1SzRxOXFOTTNmS2h5VWkzbWx2U2VtaHV6dXVHdzRNLUlvZTlEZmlkek5uQ1MtbTJvbkJwNmlOVTBMcE9uWElsdE9ZLWNzSw?oc=5",
+   "summary": "La inflación vuelve a poner contra las cuerdas al Banco de la República: aumenta el riesgo de una nueva subida de tasas &nbsp;&nbsp; Revista Semana",
+   "published": "2026-09-09T11:01:57+00:00",
+   "source": "Banrep (GNews)",
+   "tier": 1,
+   "topic": "colombia",
+   "n_sources": 1,
+   "score": 7.43
+  },
+  {
+   "title": "U.S. Stocks Climb as Treasury Yields Retreat on Waller’s Rate Comments - WSJ",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQemNkZHN2VEZMZV8wU3psUG53a1doTUNxdTgteUNoSWsyeXAyUWJvZ0ZkMWxTMUM2Qm5kWGxKZHVFQ01vV1dSUDQ0ZW85MWRPeTM3eWE5UmozM1dTdDg1cWJqRHRtM0g2UGdiaTQycndZNEVZOC01VFdYSFBwRU1ybElRdDZpQ0tEQjNsTmhQTDlDd1hMd0JJUnpsYk52R0Y0TlBJZEhfMUZlSzVFc2V2LTBtanYtOWdqY094Wg?oc=5",
+   "summary": "U.S. Stocks Climb as Treasury Yields Retreat on Waller’s Rate Comments &nbsp;&nbsp; WSJ",
+   "published": "2026-09-09T14:10:19+00:00",
+   "source": "WSJ · Economía",
+   "tier": 1,
+   "topic": "macro",
+   "n_sources": 1,
+   "score": 7.43
   },
   {
    "title": "US Bank completes live cross border pilot of USBDC stablecoin - ledgerinsights.com",
@@ -9013,7 +9215,18 @@
    "tier": 2,
    "topic": "crypto",
    "n_sources": 1,
-   "score": 7.51
+   "score": 7.39
+  },
+  {
+   "title": "China’s Trade Surplus Widens as Export Growth Accelerates - WSJ",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZzlXWTJCbHBEV3JlN0ItV0gtX3A0Y2duVkNvdWRfZ1h1bWtMSVhIejE0angwQTV5SUkzV2VXMkNxYjlhLWt5Vk5QbnBlMVpTaHVuTWczel9wd1ZEWFEwTXQzRDBHbHpWelNNNDhKZl84MzlkaGFmanpBQnpOUU85dWR0Y2VIS21DbExiYlBENUV4QXppNmM4amhWaktqa2Z3?oc=5",
+   "summary": "China’s Trade Surplus Widens as Export Growth Accelerates &nbsp;&nbsp; WSJ",
+   "published": "2026-09-09T18:54:37+00:00",
+   "source": "WSJ · Economía",
+   "tier": 1,
+   "topic": "macro",
+   "n_sources": 1,
+   "score": 7.32
   },
   {
    "title": "Ecopetrol prepara reforma estatutaria y mantendría a Henao en la Junta",
@@ -9024,7 +9237,7 @@
    "tier": 2,
    "topic": "colombia",
    "n_sources": 1,
-   "score": 7.26
+   "score": 7.15
   },
   {
    "title": "Mexico Inflation Ticks Up Again as Banxico Holds Rates Firm - Bloomberg",
@@ -9035,7 +9248,7 @@
    "tier": 2,
    "topic": "macro",
    "n_sources": 1,
-   "score": 7.13
+   "score": 7.02
   },
   {
    "title": "Treasury will buy more government bonds than previously announced. The market remains ‘underwhelmed.’",
@@ -9046,7 +9259,7 @@
    "tier": 2,
    "topic": "markets",
    "n_sources": 1,
-   "score": 7.08
+   "score": 6.97
   },
   {
    "title": "Mexico inflation eases in August, core price growth slows By Investing.com - Investing.com South Africa",
@@ -9060,7 +9273,7 @@
    "also_in": [
     "Bancos centrales EM"
    ],
-   "score": 7.0
+   "score": 6.9
   },
   {
    "title": "Federal Reserve faces rate decision risks as Trump pressure tests Warsh leadership - tradersunion.com",
@@ -9071,18 +9284,71 @@
    "tier": 2,
    "topic": "macro",
    "n_sources": 1,
-   "score": 6.8
+   "score": 6.7
   },
   {
-   "title": "U.S. Bank completes stablecoin pilot transaction - Asset Servicing Times",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRkljOFNxTEFNUkdqQVBRa0tObXdTSldtaW5RU1JobDljaTMtUmNaYmRwVXJfdjd3WnNuTFBvam5QTGJEamtUVFdOaFJZLVRwUlNxZDN2Rm40Q0Z2ek4xRXVnREhqYmxmWDlQSEhPZW5JbjI1U3hfemJPcXlua3Z1anViVEFWNUI1S2hzd1o3eUhVcnE3ODJ3d0REdw?oc=5",
-   "summary": "U.S. Bank completes stablecoin pilot transaction &nbsp;&nbsp; Asset Servicing Times",
-   "published": "2026-09-09T13:37:52+00:00",
-   "source": "Cripto",
-   "tier": 2,
-   "topic": "crypto",
+   "title": "Tether launches private credit fund in effort to boost stablecoin use - Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNHEzQjhram9OSm5SUUYteGVaUnBRbGUwbXdMRXJCNlRmSkpTd0FJVndzd0M1bmpLZnlISk9zX1pILVJIOUVVb0xGLUQ1WFk1N2hhMnVZbEo0dmw4SlNZcnUzTnBJSlM4bndsd1psT2ZIQUpPWTd2RElJOEw4bzd6ZUlZZkY?oc=5",
+   "summary": "Tether launches private credit fund in effort to boost stablecoin use &nbsp;&nbsp; Financial Times",
+   "published": "2026-09-09T16:09:09+00:00",
+   "source": "Financial Times",
+   "tier": 1,
+   "topic": "markets",
+   "n_sources": 2,
+   "also_in": [
+    "Cripto"
+   ],
+   "score": 6.66
+  },
+  {
+   "title": "OpenAI names top US official from model testing agency to its board - Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNnQ4eTFvM0huQ3QtaGlscTlQNVNXRXBtTjM5V2hsclBHZmNfOFpURTB4RXNmejZZN0Fqc3BJbklrSHBWRC01b0MzM3BSTFRxU3pwYjVjWi1SZDY3X1g2c3VBZGN5MmNfWXV3S2F5WDZrd09XQzFhcTQzc0xsb0dSRjk5Wng?oc=5",
+   "summary": "OpenAI names top US official from model testing agency to its board &nbsp;&nbsp; Financial Times",
+   "published": "2026-09-09T17:00:02+00:00",
+   "source": "Financial Times",
+   "tier": 1,
+   "topic": "markets",
    "n_sources": 1,
-   "score": 6.58
+   "score": 6.56
+  },
+  {
+   "title": "Actualización trimestral del Reporte de Estabilidad Financiera - septiembre de 2026 - | Banco de la República",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUFtZFVlck5fRmg0N3hUU2dYRDJXNXV4elgzanlmemRENVowR2pUWjUydlREcVVWNFBraTM2a2pzRGFBMHVzRGMyb1hZMjBfaDY2UmxubXNGSFBWUHQ2T1hha3RGUVZJMHBtc2VQWFBPMC12M2UwUGZFaTVaWG5mSDg1TEh5OVZnRUxEd0x5emZWb1A1dmhsbW1QY2JiTUh2enJEcm5scmNpdm5zU3NDVHdrb2xaUmVxZW00?oc=5",
+   "summary": "Actualización trimestral del Reporte de Estabilidad Financiera - septiembre de 2026 &nbsp;&nbsp; | Banco de la República",
+   "published": "2026-09-09T12:00:00+00:00",
+   "source": "Banrep · comunicados",
+   "tier": 1,
+   "topic": "colombia",
+   "n_sources": 2,
+   "also_in": [
+    "Banrep (GNews)"
+   ],
+   "score": 6.55
+  },
+  {
+   "title": "US markets point lower as crude prices breach $100 with the conflict around Iran intensifying - ABC News - Breaking News, Latest News and Videos",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTXlpZk5rUE40anJWYXd5bzNaSmJsSVl6QmVWbzJ6Y1FWMUo4Z0gydTNuVkhkQXVXaHdDS190SnZnYlNZcWs1ZW5QVkNHNmZCXzluWE1ONHpabVUxcW4zQlRJdTRtQ3Z1S2U0SmJ3dWN6anFMeVdTOFE2S3hyemdKOGxudG9BWm5rU21QdDRXOWhnc0NPd2xfWks3MFoxT1ZCbXNR0gGoAUFVX3lxTFBsZEN3bjg0U29POUtfaHA2bnhfMGQxdnNLaFVhT1liNXFBVVp1dm5Dai00Q2V3bFNBY3l2eTdRbUJ2VVR5bnhjS01uYnJTS2hfLTFQYm5vM1N4UGFLenRYOFNwaDZWNWEyeFpEbXFRSXB6WkhsaUR2eWYtN193Z1F6VG1zdl9ad01aejZzRzhrYUZGMjE4bnp6YWVDeW5yNWJYaW9tcE9iSQ?oc=5",
+   "summary": "US markets point lower as crude prices breach $100 with the conflict around Iran intensifying &nbsp;&nbsp; ABC News - Breaking News, Latest News and Videos",
+   "published": "2026-09-09T15:45:00+00:00",
+   "source": "Commodities",
+   "tier": 2,
+   "topic": "commodities",
+   "n_sources": 2,
+   "also_in": [
+    "Commodities"
+   ],
+   "score": 6.51
+  },
+  {
+   "title": "Week Ahead for FX, Bonds: U.S. Inflation Data in Focus; ECB Expected to Raise Rates - WSJ",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUg3NndUYW1HNGpfSzJxNUVyU3A1ZzFVbXhGMjBhVndjbFpZaHM4c0N4NTdsczFkS19XUkFEbHAyazFvbXA4T1RmY2thTUpYZHdMTXZGLTk5d1NuNmJGeGhZWnp4RFdGXzNtakUzWVpBVXhxUDZxOGFPamVmZFRQUkJ4el9ETUgxbTByc25JRGVwcGo4RlhtMTZBeUJfMGFjeC0yb212QXNPZk9wZEU3T0hZU0NSSWM?oc=5",
+   "summary": "Week Ahead for FX, Bonds: U.S. Inflation Data in Focus; ECB Expected to Raise Rates &nbsp;&nbsp; WSJ",
+   "published": "2026-09-09T09:27:42+00:00",
+   "source": "WSJ · Economía",
+   "tier": 1,
+   "topic": "macro",
+   "n_sources": 1,
+   "score": 6.51
   },
   {
    "title": "Oil prices climb over $100 per barrel as US war in Iran continues - ABC News - Breaking News, Latest News and Videos",
@@ -9096,7 +9362,7 @@
    "also_in": [
     "Commodities"
    ],
-   "score": 6.51
+   "score": 6.41
   },
   {
    "title": "Bitcoin miners miss crypto rally as exchanges, stablecoins surge - TradingView",
@@ -9107,7 +9373,7 @@
    "tier": 2,
    "topic": "crypto",
    "n_sources": 1,
-   "score": 6.51
+   "score": 6.41
   },
   {
    "title": "Basic Materials Roundup: Market Talk",
@@ -9118,7 +9384,7 @@
    "tier": 1,
    "topic": "markets",
    "n_sources": 1,
-   "score": 6.46
+   "score": 6.36
   },
   {
    "title": "Tech, Media & Telecom Roundup: Market Talk",
@@ -9129,7 +9395,7 @@
    "tier": 1,
    "topic": "markets",
    "n_sources": 1,
-   "score": 6.44
+   "score": 6.34
   },
   {
    "title": "Bitcoin miners are missing the crypto rally as exchanges, stablecoins surge - The Block",
@@ -9140,7 +9406,7 @@
    "tier": 2,
    "topic": "crypto",
    "n_sources": 1,
-   "score": 6.44
+   "score": 6.34
   },
   {
    "title": "Bessent Turns Up the Heat to Steer Yen and Yields - Bloomberg",
@@ -9151,7 +9417,21 @@
    "tier": 1,
    "topic": "markets",
    "n_sources": 1,
-   "score": 6.4
+   "score": 6.3
+  },
+  {
+   "title": "Deuda bruta de Colombia siguió descendiendo y con corte a julio se ubicó en el 60,1 % del PIB - Valora Analitik",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRmJPMlhNUDdORjQwWjhvWlFScTBIRVFmZEQzNzRyNWpPR2lZWjMyN2pEY09EWC1OUi1FY3ZMWm1NalMyZUdFTG4wSm0zVVRDbjg4NUtkWWZOUDVTTVBfYmwyQ1hsbFhDQ0o5VWRlMkR6OG5CbkFfeDJTUEE5NFpkQkRscFkxMmZfMUNtanJTQXB1NzliZGxBRkMtWTc5NURESGRVenFXUzhQZDZDQ19HUWt1M29PUk1zU1JXNHNwbEJUaE1H0gHEAUFVX3lxTE9GYk8yWE1QN05GNDBaOG9aUVJxMEhFUWZkRDM3NHI1ak9HaVlaMzI3akRjT0RYLU5SLUVjdkxabU1qUzJlR0VMbjBKbTNVVENuODg1S2RZZk5QNVNNUF9ibDJDWGxsWENDSjlVZGUyRHo4bkJuQV94MlNQQTk0WmRCRGxwWTEyZl8xQ21qclNBcHU3OWJkbEFGQy1ZNzk1RERIZFV6cVdTOFBkNkNDX0dRa3Uzb09STXNTUlc0c3BsQlRoTUc?oc=5",
+   "summary": "Deuda bruta de Colombia siguió descendiendo y con corte a julio se ubicó en el 60,1 % del PIB &nbsp;&nbsp; Valora Analitik",
+   "published": "2026-09-09T16:13:31+00:00",
+   "source": "Valora Analitik",
+   "tier": 2,
+   "topic": "colombia",
+   "n_sources": 2,
+   "also_in": [
+    "TES y fiscal CO"
+   ],
+   "score": 6.27
   },
   {
    "title": "US Bancorp executes first live transaction using dollar-backed USBDC stablecoin - 1470 & 100.3 WMBD",
@@ -9162,7 +9442,7 @@
    "tier": 2,
    "topic": "crypto",
    "n_sources": 1,
-   "score": 6.35
+   "score": 6.25
   },
   {
    "title": "Corn Slumps for Fifth Day as Record Fund Position Tests Market - Bloomberg",
@@ -9173,7 +9453,18 @@
    "tier": 1,
    "topic": "markets",
    "n_sources": 1,
-   "score": 6.28
+   "score": 6.18
+  },
+  {
+   "title": "Gold Futures Steady As Market Digests Higher Rates - WSJ",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWU8wU2xDUU9NVUEtQ0hQdzhSQTJQRmtNNWpJTllxcFFlVElWSFp3MWpXN0RmNnBvcl9IcWpBMXJtNEZSTlVmNUIxTmpoNG8yRTBzMDhBby14M0hJWXBaZElLMkp4YzR0a3h5Ukxsd0VEal94MGJ1bndRX055ZHUyenh3YjY2TlpkUlFjcS03Q0ZjZVRzaGNERGh3?oc=5",
+   "summary": "Gold Futures Steady As Market Digests Higher Rates &nbsp;&nbsp; WSJ",
+   "published": "2026-09-09T15:57:00+00:00",
+   "source": "WSJ · Economía",
+   "tier": 1,
+   "topic": "macro",
+   "n_sources": 1,
+   "score": 6.17
   },
   {
    "title": "Banco de Bogotá advierte que PGN sugiere el peor escenario con déficit fiscal en 9,4%",
@@ -9184,7 +9475,7 @@
    "tier": 2,
    "topic": "colombia",
    "n_sources": 1,
-   "score": 6.2
+   "score": 6.11
   },
   {
    "title": "Stocks Have Survived Inflation, Tariffs And War. HSBC Says This Is What Could Finally Break The Market. - International Business Times",
@@ -9195,7 +9486,18 @@
    "tier": 2,
    "topic": "geopolitica",
    "n_sources": 1,
-   "score": 6.18
+   "score": 6.08
+  },
+  {
+   "title": "Agujero fiscal, el combustible de la inflación - El Espectador",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZnd5Z2RqVHB4cWJ2eTJNSlMyVTJZQjdCSkprMzh2VlR0MWFGc0RQQ09Rcy1Nd2ZMdU15Y3VacjljdFZqUVFPbzdlSk90VlJBU20ybm5DWklRdmVGQlgxS0R3cGxTbGJueFEwdVJ5cHB6aUpsdzNlalZ3SkZWOXh1XzZHLUpGU19WQUpuY3dRMHljUXB5RUFvLWRSWGpHaDBhclQ1endheXpKc3MwdlM5Rll6VHZ0d9IBygFBVV95cUxNS0x4eFp3enlMUm9fYkRRNVN5Vi1iTUJKZFBqanVkTmFmTm1URF9VVnZZWFVlS1Z5Zjh5YkpiUzFtbExsX25vSDRhWFNWWFhubTRMa3B4c0JTSVBwS2JIYk9rMzQ1RjdTQ3M3bWFSeE5faFFUazJYdVdFUm1Fa3FjVEhTdk01RzFnZFhHMWppRVh2U3BiZ0Zzcm9Nd0ZWaWI4aWVWZnNtSVN1RHNnR2thRk03UG5vMnJuRG56eTd3LU5vN2dfTGdkQmxn?oc=5",
+   "summary": "Agujero fiscal, el combustible de la inflación &nbsp;&nbsp; El Espectador",
+   "published": "2026-09-09T14:23:13+00:00",
+   "source": "El Espectador · Economía",
+   "tier": 3,
+   "topic": "colombia",
+   "n_sources": 1,
+   "score": 6.02
   },
   {
    "title": "Italy mandates sanctions checks on all crypto transfers - Crypto Briefing",
@@ -9206,7 +9508,7 @@
    "tier": 2,
    "topic": "geopolitica",
    "n_sources": 1,
-   "score": 6.09
+   "score": 6.0
   },
   {
    "title": "Boletines Económicos Regionales del Banco de la República reflejan crecimiento heterogéneo en Colombia durante el segundo trimestre de 2026 - BusinessCol.com",
@@ -9217,51 +9519,29 @@
    "tier": 1,
    "topic": "colombia",
    "n_sources": 1,
-   "score": 6.05
+   "score": 5.95
   },
   {
-   "title": "U.S. Bank takes next step towards launching its stablecoin with cross-border payment test - CoinDesk",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZzBJTlpvdjh2Q1hXVlVMSXg2d0JMcndpMEp0OUFZV3IwUk9ieUtTUUZHVDlod1BqTjBvd0VGX3BqYXdXMVA2LXdsaWt4dk5iYmZxRnhLWXZIM1VFcEFUQmtPQlZUTDNPc3k3QzFqVHRITk16N0w3QTN1LUFhakR4Y0FtUDlfTVY2UmpCc3FmZWI3MDhVSUdFS3hDTDBwZ1Fiak93X2RaanNUVjdZVjRBQmY3cEV5dmtrVFFRWWpCQnQxaGJkeVRLZEdyVjlXQQ?oc=5",
-   "summary": "U.S. Bank takes next step towards launching its stablecoin with cross-border payment test &nbsp;&nbsp; CoinDesk",
-   "published": "2026-09-09T11:40:44+00:00",
-   "source": "Cripto",
-   "tier": 2,
-   "topic": "crypto",
-   "n_sources": 1,
-   "score": 5.88
-  },
-  {
-   "title": "Hasta el 11 de septiembre la Dian realizará subasta pública virtual de joyas",
-   "url": "https://www.larepublica.co/economia/hasta-el-11-de-septiembre-la-dian-realizara-subasta-publica-virtual-de-joyas-y-otros-productos-4478053",
-   "summary": "La oferta comprende pulseras, cadenas, anillos, aretes y otras piezas de joyería",
-   "published": "2026-09-09T17:50:35+00:00",
-   "source": "La República",
-   "tier": 2,
-   "topic": "colombia",
-   "n_sources": 1,
-   "score": 5.59
-  },
-  {
-   "title": "The banking sector looks at the ECB: which banks are more exposed to a new rate hike - Demócrata",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOXktUXdGOElVRnh4ZUR6Uy1qRldZd2M1dW4yWktRRG9PMWwxQzdxbVVtYmNlZTY1T2M0T2J6djk4TnluNEdfekZIcElNckg2QWlEaEZkclRQMXhKZTNBdlZFR1AxTGNiVUlCaC1YWUIzTG1mMXN4UWVtUXhXWFZpOHVvejVESzZYMmZhUXpIZEJOcXAtRHMzWEJyVWNzZ1FUNWYySXFMNlRmVWVoWFgzajhvV3N0b2ZiVF9QMdIBwgFBVV95cUxNWFVnWkNCYUtmMXdpOEdDRFF2ZmpXbGZQZ1FsUU9kUmxJRF9oVzM5MFF0dHdDeFFMV1JQUkRjYUtxaDY3TzhmUFBkV1BhR0x1cWhVN2hsM3ZsdV9xZ3RQYmNYb1V1b2VNbm9Vcmg2ZVZZZUtaYXIyWUtmU0R0M3BBVHhYSVppZHk3RnNfdEVBZk9helJsblQ1a2JYNy1ONnE3dmNIZm9NLVdJTzFBbW14QndQWlgzMXhYdW82d2pmME5YQQ?oc=5",
-   "summary": "The banking sector looks at the ECB: which banks are more exposed to a new rate hike &nbsp;&nbsp; Demócrata",
-   "published": "2026-09-09T14:59:41+00:00",
-   "source": "Bancos centrales EM",
-   "tier": 2,
+   "title": "Exclusive | Inspire Brands CEO Takes Medical Leave, Dunkin’ Boss Steps Up Ahead of IPO - WSJ",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR0pscWxIOS1SQzVBTHpiNzJFRmR1SWJCWHEyajVUd0N3dmFLbmxMX3o3Z3pjUjk1aW83MjJEZ2tZWkVkdms5YVBLUFJsbUwyVTlsNUhsRmNuRGxVMVRWTWs4WXlKaXNtcjdQcjFGZ0JXZTVRZVAtNlExblhSQVV1dThjSFBtMU5odVNEemxJSTRmbFlXa3NGY3V0VHJCMnY0U0R2NWV0MjZxcEoxSmRn?oc=5",
+   "summary": "Exclusive | Inspire Brands CEO Takes Medical Leave, Dunkin’ Boss Steps Up Ahead of IPO &nbsp;&nbsp; WSJ",
+   "published": "2026-09-09T17:34:00+00:00",
+   "source": "WSJ · Economía",
+   "tier": 1,
    "topic": "macro",
    "n_sources": 1,
-   "score": 5.54
+   "score": 5.87
   },
   {
-   "title": "Bitcoin ETFs Attracted $1B: Are Institutions Buying the Dip? - Bitcoin Foundation",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQXBTaVctMHV6aXJUT0dsQ2pVb3lyaG5SOVJJTUlMTjl6Y0lKajZ2ekxHcTloaXRXMEJOYU1DeHkyZU5OUEFwRVcxSlVYZlQwNDkwNnJtM1RwTHhwQUoycm5HWVpscEZrb1dtSFhlZF9jb0ZpTkpCRVRMakRMS0x0d1BuaUhQcXhC?oc=5",
-   "summary": "Bitcoin ETFs Attracted $1B: Are Institutions Buying the Dip? &nbsp;&nbsp; Bitcoin Foundation",
-   "published": "2026-09-09T14:57:00+00:00",
-   "source": "Cripto",
+   "title": "Gold climbs on subdued US dollar as inflation data awaited amid oil rally - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWZnRkUxTUlfT1ZLS0tEcVFtTGFLZ2VmSElSal8tdTM3eTg2ZDI4TEJWYVV2eG1Xelc2ZVBmcE9fOThpM295OEtsQ1VWcURQNU1PSFVLa3BILVpqdXFFakdlRU5QeERQTEVpalRreE9tM3djQ1lrcl9fdm4zNWFOdFhjbHFwTWUyTHpuaDliVFZ3enpUYTlqSE5tWHUwQlpkdW9sMUZIakk1T2tjb1FXdE9yaWp4dw?oc=5",
+   "summary": "Gold climbs on subdued US dollar as inflation data awaited amid oil rally &nbsp;&nbsp; Reuters",
+   "published": "2026-09-09T19:01:45+00:00",
+   "source": "Commodities",
    "tier": 2,
-   "topic": "crypto",
+   "topic": "commodities",
    "n_sources": 1,
-   "score": 5.52
+   "score": 5.41
   },
   {
    "title": "U.S. Farmers Brace for Fallout as Canada Trade War Escalates - AgroLatam",
@@ -9272,62 +9552,7 @@
    "tier": 2,
    "topic": "geopolitica",
    "n_sources": 1,
-   "score": 5.44
-  },
-  {
-   "title": "Fed to hold rates steady in rest of 2026; rising number of analysts see at least one hike: Reuters poll - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ0NreUFoTnFxX3ZzQnd3YU9FNFVkQmhfZlBrSVBUUm12Q0lCckxRTHdWcUVHbmJpcDZKbVhNZG5RektYQlpqaUZGMjl2TnJ0amhPMGJBWnB6OG9FVTB5dVJPTlc1ZjJaa2djUl9HR3VhYzIxODJjVEx1NUswdkVkblYxNVNSY1dYWlpUdzlEQU9UNTNzaUtVWXVtdXljVEUzSnVOQTV2bTJHSXN6Q2E3U0pzcVk5U19qUmc?oc=5",
-   "summary": "Fed to hold rates steady in rest of 2026; rising number of analysts see at least one hike: Reuters poll &nbsp;&nbsp; Reuters",
-   "published": "2026-09-09T13:29:11+00:00",
-   "source": "Reuters (GNews)",
-   "tier": 1,
-   "topic": "markets",
-   "n_sources": 1,
-   "score": 5.44
-  },
-  {
-   "title": "Inflación persiste y desafía la confianza en el Banco de la República - Estrella Digital Colombia",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVS1ITkZiR2FzWklqTkZrekE0TUszM2drRGJpUzUzWHJTSmstNjl1QmVrb1pzQllTdmozV2dXUkI1b05Hd1NWMFdMd2hzMHN6VW5PLVFEa1FmeTZTbVdWdXpWOFF2Z1ZKeUhVcjVjaDY2cHFIVXNxUzhzekRpT0tiZk5n?oc=5",
-   "summary": "Inflación persiste y desafía la confianza en el Banco de la República &nbsp;&nbsp; Estrella Digital Colombia",
-   "published": "2026-09-09T05:01:00+00:00",
-   "source": "Banrep (GNews)",
-   "tier": 1,
-   "topic": "colombia",
-   "n_sources": 1,
-   "score": 5.33
-  },
-  {
-   "title": "Actualización trimestral del Reporte de Estabilidad Financiera - septiembre de 2026 - | Banco de la República",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUFtZFVlck5fRmg0N3hUU2dYRDJXNXV4elgzanlmemRENVowR2pUWjUydlREcVVWNFBraTM2a2pzRGFBMHVzRGMyb1hZMjBfaDY2UmxubXNGSFBWUHQ2T1hha3RGUVZJMHBtc2VQWFBPMC12M2UwUGZFaTVaWG5mSDg1TEh5OVZnRUxEd0x5emZWb1A1dmhsbW1QY2JiTUh2enJEcm5scmNpdm5zU3NDVHdrb2xaUmVxZW00?oc=5",
-   "summary": "Actualización trimestral del Reporte de Estabilidad Financiera - septiembre de 2026 &nbsp;&nbsp; | Banco de la República",
-   "published": "2026-09-09T12:00:00+00:00",
-   "source": "Banrep (GNews)",
-   "tier": 1,
-   "topic": "colombia",
-   "n_sources": 1,
-   "score": 5.32
-  },
-  {
-   "title": "Ethereum giant Consensys spins off flagship MetaMask wallet, stays mum on IPO and token plans - Fortune",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPeXN0MENheTNJZFRhZmxmU3ItUC0zSnRXYlpxUDZfT29ndWtTRHdjY01Lek9vV3lQeWJyQ3lEenhVdWZpZjNncGR4dE05TC0ySXVxX3dBeUhpVmpPeW9J?oc=5",
-   "summary": "Ethereum giant Consensys spins off flagship MetaMask wallet, stays mum on IPO and token plans &nbsp;&nbsp; Fortune",
-   "published": "2026-09-09T14:00:00+00:00",
-   "source": "Cripto",
-   "tier": 2,
-   "topic": "crypto",
-   "n_sources": 1,
-   "score": 5.23
-  },
-  {
-   "title": "ECB set to hike to 2.50% as Iran oil sends eurozone inflation to 3.3% - Martin Cid Magazine",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBJT2diRWZfcWd5bE1qOGFnOE1mSjRlWHQ3eWRBN0psQ3U0RnBoX1Fydk9tb0tPdHdsRHBlcU1mX3AtbkxiNkY0ZEJoUjFTdDJHMEtEVndVdnJaVUFfVlZJajBiZV9PTlp6M3hfNU9ySEwya2dSaG5n?oc=5",
-   "summary": "ECB set to hike to 2.50% as Iran oil sends eurozone inflation to 3.3% &nbsp;&nbsp; Martin Cid Magazine",
-   "published": "2026-09-09T18:00:55+00:00",
-   "source": "Bancos centrales EM",
-   "tier": 2,
-   "topic": "macro",
-   "n_sources": 1,
-   "score": 5.18
+   "score": 5.35
   },
   {
    "title": "Bombardier: Tariffs and Trade Rhetoric Rattle Investors - Morningstar",
@@ -9338,65 +9563,7 @@
    "tier": 2,
    "topic": "geopolitica",
    "n_sources": 1,
-   "score": 5.15
-  },
-  {
-   "title": "Bitcoin and ethereum prices today, Wednesday, September 9, 2026: Ongoing escalations in the Middle East are keeping a lid on crypto - Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNZ0J0QWh2Z0o3R0NKNzh4VFB1VEZLODZfb0tReUdBOTFjRXp4eDNfN05CWDdRUEJILVc2YTAtcDlFSnlBQmZIeWVUUVVCTUZSTW5LaExSbFBsdjdkcEZLczNuNERpWEtKOG5yRmk4dzJtYUl2ckNvU294VFJYY2psYm1IaFhBakxCbW5JYkE5QjloVzBhRTE2ZzQtZks3YTVnS2R3M3p6dEJGWTdLUENaS0owQ2cwcmpjMG5JX2E1TFZNVHdpbXpUZEJIdW9fYjV3dVhTOWloRjFFNEpvamdqLWFuVzFzMS03b2M5aVVkdGpuMFptVkFmZWczTUx1alE2ZFEwajdkazFJcF9MUGFjaFBDWWVxc1c0ekc3NUdKT0FTOU9YcWFDYk9FVQ?oc=5",
-   "summary": "Bitcoin and ethereum prices today, Wednesday, September 9, 2026: Ongoing escalations in the Middle East are keeping a lid on crypto &nbsp;&nbsp; Yahoo Finance",
-   "published": "2026-09-09T11:25:41+00:00",
-   "source": "Cripto",
-   "tier": 2,
-   "topic": "crypto",
-   "n_sources": 2,
-   "also_in": [
-    "Yahoo Finance"
-   ],
-   "score": 5.15
-  },
-  {
-   "title": "U.S. reveals import ban on slew of Canadian goods as trade war escalates",
-   "url": "https://www.cnbc.com/2026/09/09/us-canada-trade-war-import-ban.html",
-   "summary": "Import bans on motorbikes, alcohol and dairy products are due to come into effect on Sept. 29 as the rift between the countries deepens.",
-   "published": "2026-09-09T16:17:46+00:00",
-   "source": "CNBC · Economía",
-   "tier": 2,
-   "topic": "macro",
-   "n_sources": 1,
-   "score": 5.12
-  },
-  {
-   "title": "Clara Emelina Garzón Pereira, pintora y docente de Nariño, hace parte de Mujeres Notables del Banco de la República - informativo del guaico",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNT2lLcnIxdjJyVG02SGE4RW1FR1VFMDBZR3l4MEtodjk3bDlrSjBqT19uZkxkRmJaVzFybG5YRGh2QTZqOHFXdXVKM2QwRkdxNkpsa0Z4NUhIU0dTZWlNTllXdUZYTWs3LW1NSnFwcmNTdWFFd1ZkNkpkUDZ2SzRXanU2WW90YWltVUxzRUZCSzZFQWhuTzlyOE5XUlhaa1d5WXUxSzk1cG1HcWNvenRKaG43R3ZnSFlMMlFxSWd3T3pXU09UYU1RSElkZlFnUlRjT1A0a29VQWJ4V1VseVFDUQ?oc=5",
-   "summary": "Clara Emelina Garzón Pereira, pintora y docente de Nariño, hace parte de Mujeres Notables del Banco de la República &nbsp;&nbsp; informativo del guaico",
-   "published": "2026-09-09T10:52:44+00:00",
-   "source": "Banrep (GNews)",
-   "tier": 1,
-   "topic": "colombia",
-   "n_sources": 1,
-   "score": 4.99
-  },
-  {
-   "title": "US markets point lower as crude prices breach $100 with the conflict around Iran intensifying - ABC News - Breaking News, Latest News and Videos",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTXlpZk5rUE40anJWYXd5bzNaSmJsSVl6QmVWbzJ6Y1FWMUo4Z0gydTNuVkhkQXVXaHdDS190SnZnYlNZcWs1ZW5QVkNHNmZCXzluWE1ONHpabVUxcW4zQlRJdTRtQ3Z1S2U0SmJ3dWN6anFMeVdTOFE2S3hyemdKOGxudG9BWm5rU21QdDRXOWhnc0NPd2xfWks3MFoxT1ZCbXNR0gGoAUFVX3lxTFBsZEN3bjg0U29POUtfaHA2bnhfMGQxdnNLaFVhT1liNXFBVVp1dm5Dai00Q2V3bFNBY3l2eTdRbUJ2VVR5bnhjS01uYnJTS2hfLTFQYm5vM1N4UGFLenRYOFNwaDZWNWEyeFpEbXFRSXB6WkhsaUR2eWYtN193Z1F6VG1zdl9ad01aejZzRzhrYUZGMjE4bnp6YWVDeW5yNWJYaW9tcE9iSQ?oc=5",
-   "summary": "US markets point lower as crude prices breach $100 with the conflict around Iran intensifying &nbsp;&nbsp; ABC News - Breaking News, Latest News and Videos",
-   "published": "2026-09-09T15:45:00+00:00",
-   "source": "Commodities",
-   "tier": 2,
-   "topic": "commodities",
-   "n_sources": 1,
-   "score": 4.96
-  },
-  {
-   "title": "Gold price recovers ahead of US inflation data - Mining.com.au",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RT3ZzX2ZSVS00QlUtSTVNQXVMdVlSSlRYQTh3d0R0RTZPOHpPU1BSZWd6YXNWR0Z6U2lyZlI0cW1aUWNBYUJ6VnpjNWZIRDItYmZ0S3B0QVN6TDg0MGRBZFZuaVR6YmkyMzUwQjhMSjdtalRrWkRlRA?oc=5",
-   "summary": "Gold price recovers ahead of US inflation data &nbsp;&nbsp; Mining.com.au",
-   "published": "2026-09-09T16:07:30+00:00",
-   "source": "Commodities",
-   "tier": 2,
-   "topic": "commodities",
-   "n_sources": 1,
-   "score": 4.64
+   "score": 5.07
   },
   {
    "title": "Arcil opens ₹733cr offer for sale IPO priced ₹132-₹139 - newsbytesapp.com",
@@ -9407,7 +9574,7 @@
    "tier": 2,
    "topic": "ipos",
    "n_sources": 1,
-   "score": 4.46
+   "score": 4.39
   },
   {
    "title": "Independence Realty Trust, Inc. entered into a definitive merger agreement to acquire Centerspace for $1.1 billion. - marketscreener.com",
@@ -9418,7 +9585,7 @@
    "tier": 2,
    "topic": "ipos",
    "n_sources": 1,
-   "score": 4.39
+   "score": 4.32
   },
   {
    "title": "Chime gains after Stride Bank acquisition deal and higher 2026 outlook - Quiver Quantitative",
@@ -9429,7 +9596,7 @@
    "tier": 2,
    "topic": "ipos",
    "n_sources": 1,
-   "score": 4.31
+   "score": 4.25
   },
   {
    "title": "Centerspace and Independence Realty Trust Announce All-Stock Merger Agreement - Kalkine Media",
@@ -9440,57 +9607,17 @@
    "tier": 2,
    "topic": "ipos",
    "n_sources": 1,
-   "score": 3.36
+   "score": 3.31
   }
  ],
  "errors": [
-  {
-   "source": "feed[SEC · registros S-1]",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=S-1&company=&dateb=&owner=include&count=40&output=atom"
-  },
-  {
-   "source": "feed[Fed · comunicados]",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.federalreserve.gov/feeds/press_all.xml"
-  },
-  {
-   "source": "feed[Fed · discursos]",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.federalreserve.gov/feeds/speeches.xml"
-  },
-  {
-   "source": "feed[Banco Mundial]",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://blogs.worldbank.org/en/rss.xml"
-  },
   {
    "source": "feed[FMI · blog]",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.imf.org/en/Blogs/rss"
   },
   {
-   "source": "feed[The Economist · Finanzas]",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.economist.com/finance-and-economics/rss.xml"
-  },
-  {
-   "source": "feed[Financial Times]",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.ft.com/rss/home"
-  },
-  {
-   "source": "feed[WSJ · Economía]",
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://feeds.content.dowjones.io/public/rss/RSSEconomy"
-  },
-  {
-   "source": "feed[Valora Analitik]",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.valoraanalitik.com/feed/"
-  },
-  {
-   "source": "feed[Portafolio]",
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.portafolio.co/rss/economia"
-  },
-  {
    "source": "feed[BIS]",
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.bis.org/list/press_rss.xml"
-  },
-  {
-   "source": "feed[El Espectador · Economía]",
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.elespectador.com/arc/outboundfeeds/rss/category/economia/"
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.bis.org/doclist/all_rss.xml"
   }
  ]
 }
