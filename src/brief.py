@@ -97,7 +97,17 @@ SECCIONES DISPONIBLES (usa solo las que tengan contenido real, en este orden):
 "Divisas", "Commodities", "Cripto", "Colombia y LatAm",
 "Geopolítica y política", "Corporativo, IPOs y M&A", "Regulación"
 
-Máximo 4 ítems por sección. Omite las secciones vacías en lugar de rellenarlas."""
+Máximo 4 ítems por sección. Omite las secciones vacías en lugar de rellenarlas.
+
+═══ PRESUPUESTO DE EXTENSIÓN (obligatorio) ═══
+Tu respuesta completa debe caber holgadamente en el límite de tokens. Para lograrlo:
+· Máximo 6 secciones en total, con máximo 3 ítems cada una.
+· "fact", "why" e "implication": una o dos frases cada uno. Nunca un párrafo.
+· Los campos de texto largo (price_action, what_changed, cross_asset, colombia,
+  contrarian, learning_note): máximo 4 frases cada uno.
+· Máximo 4 entradas en watch_next.
+Si tienes más material del que cabe, descarta lo menos importante. Un briefing
+completo y corto es infinitamente mejor que uno extenso que se corta a la mitad."""
 
 
 def build_payload(items, quotes, macro, movers, regime, curve, ipos, calendar) -> str:
@@ -215,7 +225,21 @@ def generate(payload: str, cfg: dict, model: str, api_key: str | None = None) ->
 
     data = r.json()
     text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
+
+    # Si el modelo chocó contra el techo de tokens, el JSON queda cortado a la
+    # mitad y no hay forma de interpretarlo. Se detecta aquí para que el
+    # mensaje de error diga la causa real en vez de "no se pudo interpretar".
+    truncado = data.get("stop_reason") == "max_tokens"
+    if truncado:
+        log_error("brief", f"respuesta truncada en {cfg['model']['max_tokens']} tokens; "
+                           "sube max_tokens en config.yaml o acorta el briefing")
+
     brief = parse_json_response(text)
+    if truncado and "_raw" in brief:
+        brief["headline"] = "Briefing incompleto: el modelo agotó el límite de tokens"
+        brief["subhead"] = (f"Se generaron {data.get('usage', {}).get('output_tokens', 0)} "
+                            "tokens y la respuesta quedó cortada. Los datos de mercado "
+                            "de abajo sí son válidos.")
 
     usage = data.get("usage", {})
     brief["_meta"] = {
